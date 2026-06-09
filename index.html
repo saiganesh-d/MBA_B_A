@@ -1,0 +1,5186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K0K2JZFDWZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-K0K2JZFDWZ');
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j
+  ,f);
+  })(window,document,'script','dataLayer','GTM-N94ZC5LW');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>MBA in Business Analytics – O.P. Jindal Global University</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <style>
+    /* ================================================
+       RESET & BASE
+    ================================================ */
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      overflow-x: hidden;
+      background: linear-gradient(90deg, #FFFFFF 0%, #E0E5FF 100%);
+      background-attachment: fixed;
+    }
+
+    .section-global {
+      width: 100%;
+      max-width: 100% !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    /* ================================================
+       HEADER
+    ================================================ */
+    .header-section {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: transparent;
+      border-bottom: none;
+      padding: 24px 0 10px;
+      z-index: 100;
+    }
+
+    /* Align the logos to the same left edge as the hero text (hero-inner padding-left). */
+    .header-section .container {
+      max-width: 100%;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+
+    .header-logo-img {
+      height: 88px;
+      width: auto;
+      object-fit: contain;
+      display: block;
+    }
+
+    .header-logo-divider {
+      width: 1px;
+      height: 68px;
+      background: #ddd;
+      margin: 0 22px;
+      flex-shrink: 0;
+    }
+
+    .logo-flex-container {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+
+    @media (max-width: 768px) {
+      .logo-flex-container {
+        justify-content: center;
+        gap: 15px;
+      }
+
+      .header-section {
+        position: relative;
+        background: #fff;
+        padding: 14px 0;
+      }
+
+      .header-logo-img {
+        height: 60px;
+      }
+
+      .header-logo-divider {
+        height: 48px;
+        margin: 0 14px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header-logo-img {
+        height: 48px;
+      }
+
+      .header-logo-divider {
+        margin: 0 10px;
+        height: 40px;
+      }
+    }
+
+    /* ================================================
+       HERO SECTION
+    ================================================ */
+    .hero-section {
+      position: relative;
+      overflow: hidden;
+      background: transparent;
+      padding-top: 110px;
+      /* Space for the floating absolute header */
+    }
+
+    @media (max-width: 768px) {
+      .hero-section {
+        padding-top: 0;
+      }
+    }
+
+    /* Student image — a real element so it can sit higher than the text
+       (head above the title), shifted left of centre, and rest just above
+       the info bar. Height exceeds the row so the head rises above the title
+       regardless of how tall the form makes the row. */
+    .hero-student {
+      position: absolute;
+      bottom: 30px;
+      left: 52%;
+      transform: translateX(-50%);
+      height: 90%;
+      width: auto;
+      max-width: 54%;
+      z-index: 4;
+      pointer-events: none;
+      object-fit: contain;
+      object-position: bottom center;
+    }
+
+    .hero-section::after {
+      display: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 3;
+      /* Elevated above the ::after overlay (z-index 2) to maintain full interactability */
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      min-height: 460px;
+      padding: 40px 60px 16px;
+      gap: 28px;
+    }
+
+    .hero-text-col {
+      position: relative;
+      z-index: 2;
+      flex: 0 0 40%;
+      max-width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero-form-col {
+      flex: 0 0 32%;
+      max-width: 32%;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Hero text */
+    .hero-pretitle {
+      font-family: 'Merriweather', serif;
+      font-size: clamp(16px, 1.8vw, 22px);
+      font-weight: 400;
+      font-style: normal;
+      color: #1e1e1e;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+
+    .hero-ma {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(34px, 3.4vw, 65px);
+      font-weight: 800;
+      color: #000000;
+      line-height: 1.08;
+      margin-bottom: 0px;
+      letter-spacing: 0;
+    }
+
+    .hero-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(34px, 3.4vw, 65px);
+      font-weight: 800;
+      line-height: 1.08;
+      margin-bottom: 14px;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
+    .hero-title--mixed {
+      white-space: normal;
+    }
+
+    .hero-ma-inline {
+      color: #000;
+    }
+
+    /* Thin rule under the heading, as in the Figma design */
+    .hero-divider {
+      width: 100%;
+      max-width: 380px;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.18);
+      margin: 0 0 18px;
+    }
+
+    .text-navy {
+      color: #0b1354;
+    }
+
+    .text-gradient-studies {
+      background: linear-gradient(180deg, #0D1B73 0%, #6A0DAD 33%, #00C2CB 71%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .text-gradient {
+      background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 50%, #00c2cb 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-tagline {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(18px, 1.56vw, 30px);
+      font-weight: 500;
+      color: #000000;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      margin-bottom: 28px;
+    }
+
+    .wavy-underline {
+      text-decoration: underline;
+      text-decoration-style: wavy;
+      text-decoration-color: #6a0dad;
+      text-underline-offset: 6px;
+      text-decoration-thickness: 2px;
+    }
+
+    /* Outline button: gradient border only, transparent interior (matches Figma).
+       !important is required because NoPaperForms injects its own
+       .npfWidgetButton style (solid #4c79dc fill) after our CSS loads. */
+    .btn-cta {
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: linear-gradient(90deg, #0D1B73 0%, #6A0DAD 50%, #00C2CB 100%) !important;
+      color: #ffffff !important;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 18px 48px !important;
+      border: none !important;
+      border-radius: 15px !important;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-decoration: none;
+      align-self: flex-start;
+      box-shadow: 0 8px 22px rgba(74, 0, 224, 0.22);
+    }
+
+    .btn-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(74, 0, 224, 0.32);
+      color: #ffffff !important;
+      filter: brightness(1.06);
+    }
+
+    /* Enquire Hero Card */
+    .enquire-hero-card {
+      background: linear-gradient(135deg, #0b1354 0%, #581c87 60%, #0093b7 100%);
+      border-radius: 24px;
+      padding: 26px 26px 24px;
+      box-shadow: 0 12px 40px rgba(11, 19, 84, 0.4);
+      width: 100%;
+    }
+
+    .enquire-hero-title {
+      font-size: clamp(20px, 2.2vw, 24px);
+      font-weight: 800;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .hero-form-input {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 13px 16px;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      margin-bottom: 16px;
+      outline: none;
+      transition: background 0.3s, border-color 0.3s;
+    }
+
+    .hero-form-input:focus {
+      background: rgba(255, 255, 255, 0.22);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .hero-form-input::placeholder {
+      color: rgba(255, 255, 255, 0.65);
+      font-style: italic;
+    }
+
+    .hero-form-input option {
+      color: #333;
+      background: #fff;
+    }
+
+    .hero-phone-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .hero-phone-prefix {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 13px 16px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      white-space: nowrap;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .hero-phone-input {
+      margin-bottom: 0;
+      flex: 1;
+    }
+
+    .hero-consent {
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.6;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      cursor: pointer;
+    }
+
+    .hero-consent input[type="checkbox"] {
+      margin-top: 3px;
+      flex-shrink: 0;
+      accent-color: #ffd700;
+      width: 14px;
+      height: 14px;
+      cursor: pointer;
+    }
+
+    .hero-submit-btn {
+      width: 100%;
+      background: linear-gradient(180deg, #ffe342 0%, #ffd700 100%);
+      color: #0b1354;
+      border: none;
+      border-radius: 8px;
+      padding: 15px;
+      font-weight: 800;
+      font-size: 16px;
+      cursor: pointer;
+      letter-spacing: 1px;
+      transition: all 0.2s;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+    }
+
+    .hero-submit-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(255, 215, 0, 0.5);
+      background: linear-gradient(180deg, #ffeb60 0%, #ffe033 100%);
+    }
+
+    /* Info Bar */
+    .hero-info-bar {
+      position: relative;
+      z-index: 3;
+      display: flex;
+      background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 50%, #00c2cb 100%);
+      margin-top: 0;
+      margin-bottom: 45px;
+    }
+
+    .info-tile {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 36px 10px;
+      /* Increased vertical padding to add height/spaciousness */
+      color: #fff;
+      text-align: center;
+      border-right: 1px solid rgba(255, 255, 255, 0.22);
+    }
+
+    .info-tile:last-child {
+      border-right: none;
+    }
+
+    .info-tile-label {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.15;
+      opacity: 0.85;
+      letter-spacing: 0.3px;
+    }
+
+    .info-tile-value {
+      font-size: 27px;
+      font-weight: 800;
+      margin-top: 1px;
+      line-height: 1.15;
+      letter-spacing: 0.2px;
+    }
+
+    /* ================================================
+       WHO SHOULD APPLY
+    ================================================ */
+    .who-section {
+      padding: 70px 0 30px;
+      background: linear-gradient(93deg, #fff 3%, #fffcde 100%);
+    }
+
+    .who-title {
+      position: relative;
+      z-index: 2;
+      font-size: clamp(28px, 4vw, 46px);
+      font-weight: 800;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 52px;
+    }
+
+    .who-card {
+      background: #0D1B73;
+      border-radius: 20px;
+      padding: 26px 14px 20px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+      color: #fff;
+    }
+
+    .who-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 32px rgba(106, 13, 173, 0.2);
+    }
+
+    .who-icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .who-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+    }
+
+    .who-card h6 {
+      font-size: 13px;
+      font-weight: 700;
+      color: #A8B4FF;
+      margin-bottom: 0;
+      line-height: 1.4;
+    }
+
+    /* ================================================
+       ABOUT THE PROGRAMME
+    ================================================ */
+    .about-programme-section {
+      padding: 70px 0 80px;
+      background: transparent;
+    }
+
+    .about-prog-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(26px, 3.1vw, 46px);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      margin-bottom: 24px;
+      white-space: nowrap;
+      background: linear-gradient(90deg, #0D1B73 0%, #6A0DAD 50%, #00C2CB 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    .about-prog-body {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(15px, 1.25vw, 18px);
+      color: #000000;
+      /* Pure black body text per Figma */
+      line-height: 1.79;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+      font-weight: 400;
+    }
+
+    .about-prog-body strong {
+      color: #0d1b73;
+      /* Rich dark navy blue for high-contrast branding */
+      font-weight: 700;
+    }
+
+    /* Programme Overview: smaller body so the text column height matches the
+       image collage on the right. */
+    .about-programme-section .about-prog-body {
+      font-size: clamp(13px, 1.05vw, 15.5px);
+      line-height: 1.62;
+      margin-bottom: 18px;
+      text-align: justify;
+    }
+
+    .about-prog-bullets {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 24px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(15px, 1.15vw, 17px);
+      color: #1a1a1a;
+      line-height: 1.75;
+      font-style: italic;
+    }
+
+    .about-prog-bullets li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 4px;
+    }
+
+    .about-prog-bullets li::before {
+      content: "•";
+      position: absolute;
+      left: 4px;
+      top: 0;
+      color: #0d1b73;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .about-prog-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      /* Modern elegant spacing gap */
+    }
+
+    .about-prog-images {
+      align-items: stretch;
+    }
+
+    .about-images-left-col {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      /* Natural height (campus + gap + Learn More tile) drives the grid row */
+    }
+
+    .about-prog-images .img-campus {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+      transition: transform 0.3s ease;
+    }
+
+    .about-prog-images .img-campus:hover {
+      transform: translateY(-4px);
+    }
+
+    /* Right image: wrapper stretches to the full left-column height; the
+       absolutely-positioned img fills it without inflating the row. */
+    .about-prog-images .img-collage-wrap {
+      position: relative;
+      width: 100%;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+      transition: transform 0.3s ease;
+    }
+
+    .about-prog-images .img-collage-wrap:hover {
+      transform: translateY(-4px);
+    }
+
+    .about-prog-images .img-collage {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .about-prog-cta-tile {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: linear-gradient(90deg, #0D1B73 0%, #6A0DAD 50%, #00C2CB 100%);
+      padding: 22px 24px;
+      border-radius: 20px;
+      color: #ffffff;
+      text-decoration: none;
+      height: 124px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 8px 20px rgba(11, 19, 84, 0.25);
+      position: relative;
+    }
+
+    .about-prog-cta-tile:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 180, 200, 0.4);
+      color: #ffffff;
+    }
+
+    .cta-tile-text {
+      font-size: clamp(16px, 1.5vw, 18px);
+      font-weight: 700;
+      line-height: 1.35;
+      color: #ffffff;
+    }
+
+    .cta-tile-arrow {
+      align-self: flex-end;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1;
+      color: #ffffff;
+      margin-top: auto;
+    }
+
+    /* ================================================
+       PROGRAMME HIGHLIGHTS
+    ================================================ */
+    .features-section {
+      background: url('Assets/Assets/Programme Highlights/bg picture.png') center center / cover no-repeat;
+      padding: 80px 0 90px;
+      /* Increased vertical padding to make height taller, giving more space for cards */
+      border-radius: 36px 36px 0 0;
+      overflow: hidden;
+      position: relative;
+      margin-top: 0;
+      /* Removed negative margin overlap to keep the space below the info bar */
+      z-index: 2;
+    }
+
+    .features-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg,
+          rgba(48, 0, 110, 0.50) 0%,
+          rgba(140, 0, 170, 0.42) 30%,
+          rgba(80, 0, 160, 0.38) 55%,
+          rgba(0, 180, 200, 0.42) 80%,
+          rgba(0, 140, 180, 0.50) 100%);
+    }
+
+    .features-section>* {
+      position: relative;
+      z-index: 1;
+    }
+
+    .section-title1 {
+      font-size: clamp(26px, 3vw, 38px);
+      font-weight: 800;
+      color: #fff;
+      text-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+      letter-spacing: 0.5px;
+      margin-bottom: 32px !important;
+    }
+
+    .slider-container {
+      position: relative;
+    }
+
+    .slider-wrapper {
+      overflow: hidden;
+      margin: 0 48px;
+    }
+
+    .slider-track {
+      display: flex;
+      transition: transform 0.4s ease;
+    }
+
+    .slider-item {
+      flex: 0 0 auto;
+      padding: 0 24px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .feature-card {
+      position: relative;
+      border-radius: 22px;
+      overflow: hidden;
+      flex: 1;
+      /* Stretch to occupy full height of slider track */
+      cursor: pointer;
+      background: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      /* Clean border to maintain card boundaries */
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      /* Softer premium shadow */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-img {
+      width: 105.5% !important;
+      /* Slightly wider to push and crop out the built-in Figma shadow/whitespace on the right */
+      max-width: none !important;
+      /* Override default bootstrap max-width: 100% constraint */
+      aspect-ratio: 1.35 / 1;
+      object-fit: cover;
+      object-position: left top;
+      /* Pin alignment to top-left to preserve perfect left-edge and top-edge curves */
+      display: block;
+    }
+
+    .card-overlay {
+      width: 100%;
+      flex: 1;
+      /* Fill the remaining card height dynamically */
+      background: #fff;
+      padding: 14px 18px 18px;
+      /* Tighter padding to pull text and picture closer together */
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .card-title {
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: #0d1b73;
+      line-height: 1.3;
+    }
+
+    .card-text {
+      font-size: 12px;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      font-weight: 500;
+    }
+
+    .slider-btn {
+      position: absolute;
+      top: 42%;
+      transform: translateY(-50%);
+      width: 40px;
+      height: 40px;
+      border: none;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 50%;
+      font-size: 16px;
+      cursor: pointer;
+      z-index: 10;
+      color: #0d1b73;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+      transition: background 0.2s, transform 0.2s;
+      font-weight: 700;
+    }
+
+    .left-btn {
+      left: 4px;
+    }
+
+    .right-btn {
+      right: 4px;
+    }
+
+    .slider-btn:hover {
+      background: #fff;
+      transform: translateY(-50%) scale(1.1);
+    }
+
+    /* ================================================
+       MEET OUR FACULTY
+    ================================================ */
+    .faculty-section {
+      background: #FFFDF0;
+      padding: 80px 0 80px;
+    }
+    .faculty-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(28px, 3.4vw, 46px);
+      font-weight: 800;
+      color: #0d1b73;
+      text-align: center;
+      margin: 0 0 50px;
+    }
+    .faculty-carousel {
+      position: relative;
+    }
+    .faculty-row {
+      display: flex !important;
+      flex-wrap: nowrap;
+      gap: 18px;
+      align-items: start;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+      padding: 4px 2px 14px;
+      cursor: grab;
+    }
+    .faculty-row::-webkit-scrollbar { display: none; }
+    .faculty-row.dragging { cursor: grabbing; scroll-snap-type: none; }
+    .faculty-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: #ffffff;
+      color: #0d1b73;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 1;
+      border: none;
+      cursor: pointer;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(13, 27, 115, 0.25);
+      transition: transform 0.2s, background 0.2s;
+    }
+    .faculty-nav:hover {
+      background: #FFD700;
+      transform: translateY(-50%) scale(1.08);
+    }
+    .faculty-nav:disabled {
+      opacity: 0.4;
+      cursor: default;
+      transform: translateY(-50%);
+    }
+    .faculty-prev { left: -14px; }
+    .faculty-next { right: -14px; }
+    .faculty-card {
+      flex: 0 0 calc((100% - 4 * clamp(14px, 1.6vw, 30px)) / 5);
+      min-width: 0;
+      scroll-snap-align: start;
+      margin: 0;
+      text-align: center;
+    }
+    .faculty-card img {
+      width: clamp(100px, 10vw, 175px);
+      height: clamp(100px, 10vw, 175px);
+      max-width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 14px;
+      box-shadow: 0 10px 24px rgba(13, 27, 115, 0.18);
+      display: block;
+    }
+    .faculty-card figcaption {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .faculty-card strong {
+      color: #0d1b73;
+      font-weight: 700;
+      font-size: clamp(14px, 1.1vw, 20px);
+      line-height: 1.2;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .faculty-card span {
+      color: #4a4a5a;
+      font-size: clamp(11px, .85vw, 15px);
+      line-height: 1.4;
+      font-family: 'DM Sans', sans-serif;
+    }
+    @media (max-width: 991px) {
+      .faculty-row { grid-template-columns: repeat(3, 1fr); row-gap: 32px; }
+    }
+    @media (max-width: 600px) {
+      .faculty-row { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* ================================================
+       RECOGNITIONS
+    ================================================ */
+    .recognitions-section {
+      position: relative;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .recognitions-header {
+      background: linear-gradient(180deg, #ffffff 0%, #f6f0fb 100%);
+      /* Reduced bottom padding so bg image starts immediately after header */
+      padding: 50px 20px 40px;
+      text-align: center;
+    }
+
+    .recognitions-title {
+      position: relative;
+      z-index: 2;
+      font-size: 48px;
+      font-weight: 800;
+      color: #0d1b73;
+      margin: 0 0 56px;
+      text-align: center;
+    }
+
+    .recognitions-inner {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      /* Was: padding: 0 40px — removed so the badge row can reach the viewport
+         edges (and bleed past, see margin trick below). */
+      padding: 0;
+    }
+
+    .recognitions-badges {
+      display: flex;
+      flex-wrap: nowrap;
+      /* Was space-between which inflated the gaps; flex-start + a fixed gap
+         keeps the spacing tight and consistent like the Figma. */
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      /* Break out of the parent .recognitions-inner / section padding so
+         the first/last badges sit closer to the viewport edges. Shifted
+         slightly left (larger negative left margin than right) so the
+         bleed reads symmetrically — the right was visibly heavier before. */
+      width: calc(100% + 32px);
+      max-width: none;
+      margin: 0 -4px 0 -28px;
+    }
+
+    .recognitions-body {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 840px;
+      padding-top: 54px;
+      background:
+        linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.55) 12%, rgba(255, 255, 255, 0) 27%),
+        url('Assets/Recognitions/bg picture.png') bottom center / cover no-repeat;
+      overflow: hidden;
+    }
+
+    .recognitions-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(13, 27, 115, 0.6);
+      opacity: 0;
+    }
+
+    .rec-badge {
+      /* 18% felt too cramped, 20% felt too big — 18.5% with the tighter
+         gap + small row bleed gives the spread without inflating size. */
+      flex: 0 0 18.5%;
+      aspect-ratio: 1 / 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      background: linear-gradient(180deg, #6A0DAD 0%, #0d1b73 100%);
+      border-radius: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      border: 3px solid #fff !important;
+    }
+
+    .rec-badge img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .rec-badge-large {
+      flex: 0 0 18.5%;
+    }
+
+    .rec-badge-center {
+      /* Center stat-card kept slightly wider + lightly scaled so it still
+         reads as the focal piece, but without overpowering the row. */
+      flex: 0 0 20%;
+      padding: 6px;
+      transform: scale(1.05);
+      margin: 0;
+      z-index: 10;
+    }
+
+    .rec-badge-center~.rec-badge-large {
+      flex: 0 0 18.5%;
+    }
+
+    .rec-badge-center~.rec-badge {
+      flex: 0 0 18.5%;
+    }
+
+    /* When inside mobile carousel */
+    .owl-carousel .rec-badge,
+    .owl-carousel .rec-badge-large,
+    .owl-carousel .rec-badge-center {
+      flex: none !important;
+      max-width: 90% !important;
+      width: 100% !important;
+      margin: 0 auto !important;
+      transform: none !important;
+      padding: 10px !important;
+    }
+
+    /* ================================================
+       FACULTY
+    ================================================ */
+    .faculty-section {
+      background: transparent;
+      padding: 70px 0;
+    }
+
+    .faculty-main-title {
+      font-size: clamp(32px, 4.6vw, 52px);
+      font-weight: 800;
+      color: #0d1b73;
+      margin-bottom: 10px;
+    }
+
+    .faculty-subtitle {
+      font-size: 15.5px;
+      color: #444;
+      max-width: 680px;
+      margin: 0 auto 32px;
+      line-height: 1.7;
+    }
+
+    .faculty-carousel-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .faculty-grid-wrapper {
+      overflow: hidden;
+      flex: 1;
+    }
+
+    .faculty-grid {
+      display: flex;
+      gap: 22px;
+      transition: transform 0.4s ease;
+    }
+
+    .faculty-card {
+      flex: 0 0 calc((100% - 4 * 18px) / 5);
+      min-width: 0;
+      text-align: center;
+    }
+
+    .faculty-image {
+      width: 100%;
+      max-width: 230px;
+      aspect-ratio: 1 / 1;
+      border-radius: 24px;
+      overflow: hidden;
+      margin: 0 auto 14px;
+      border: 3px solid #fff;
+      background: #6a0dad;
+      box-shadow: inset 4px 6px 4px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(106, 13, 173, 0.2);
+      position: relative;
+    }
+
+    .faculty-image::after {
+      content: '';
+      position: absolute;
+      inset: 6px;
+      border: 2px dashed rgba(255, 255, 255, 0.6);
+      border-radius: 18px;
+      pointer-events: none;
+    }
+
+    .faculty-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .faculty-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: #6a0dad;
+      margin-bottom: 5px;
+      line-height: 1.3;
+    }
+
+    .faculty-title-text {
+      font-size: 12.5px;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .faculty-nav-btn {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 2px solid #6a0dad;
+      background: transparent;
+      color: #6a0dad;
+      font-size: 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+
+    .faculty-nav-btn:hover {
+      background: #6a0dad;
+      color: #fff;
+    }
+
+    /* ================================================
+       CASE STUDIES
+    ================================================ */
+    .case-studies-section {
+      padding: 70px 0;
+      background: #fafafa;
+    }
+
+    .case-studies-title {
+      font-size: clamp(24px, 4vw, 38px);
+      font-weight: 800;
+      color: #0d1b73;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    /* ================================================
+       CASE STUDIES
+    ================================================ */
+    .case-studies-section {
+      padding: 80px 0;
+      background: #FFFDF0;
+      /* Solid soft premium ivory background */
+    }
+
+    .case-studies-section .container {
+      max-width: 1200px;
+      /* Constrain max-width to match Figma compact grid */
+    }
+
+    .case-studies-title {
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 800;
+      color: #0d1b73;
+      text-align: center;
+      margin-bottom: 16px;
+      position: relative;
+      display: inline-block;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .case-studies-title::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 100%;
+      height: 4px;
+      background: #0d1b73;
+      /* Solid navy blue underline */
+      border-radius: 2px;
+    }
+
+    .case-sub {
+      text-align: center;
+      font-size: 15px;
+      color: #4b5563;
+      max-width: 640px;
+      margin: 0 auto 50px;
+      line-height: 1.7;
+      font-weight: 500;
+    }
+
+    .case-card {
+      background: #fff;
+      border-radius: 24px;
+      /* Premium smooth corners */
+      padding: 20px;
+      /* Soft padding surrounding elements */
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.08);
+      /* Increased robust box shadow */
+      display: flex;
+      flex-direction: row-reverse;
+      /* Image on right, text on left as in Figma */
+      gap: 24px;
+      /* Space between image and text content */
+      height: 100%;
+      min-height: 240px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .case-card:hover {
+      transform: translateY(-6px);
+      /* High-end micro-interaction hover */
+      box-shadow: 0 20px 48px rgba(0, 0, 0, 0.16);
+      /* Dynamic deeper shadow */
+    }
+
+    .case-card-img {
+      flex: 0 0 38%;
+      max-width: 38%;
+      aspect-ratio: 3 / 4;
+      /* Enforce a beautiful tall vertical portrait format as in Figma */
+      border-radius: 18px;
+      /* Elegant rounded image frame */
+      overflow: hidden;
+    }
+
+    .case-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 18px;
+    }
+
+    .case-body {
+      flex: 1;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .case-card-title {
+      font-size: clamp(16px, 1.8vw, 19px);
+      font-weight: 800;
+      /* Extra bold text */
+      color: #0d1b73;
+      margin-bottom: 12px;
+      line-height: 1.35;
+    }
+
+    .case-excerpt {
+      font-size: 13px;
+      color: #4b5563;
+      line-height: 1.65;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    .btn-read {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #00B4D8;
+      /* Vibrant cyan/teal button color */
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 10px 24px;
+      border-radius: 40px;
+      /* Premium pill shape */
+      width: fit-content;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0, 180, 216, 0.2);
+    }
+
+    .btn-read:hover {
+      background: #0077B6;
+      /* Deep blue-cyan on hover */
+      color: #ffffff;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(0, 180, 216, 0.4);
+    }
+
+    /* Helper utility classes for custom heading colors */
+    .text-purple {
+      color: #6a0dad !important;
+    }
+
+    .text-cyan {
+      color: #00b4d8 !important;
+    }
+
+    /* ================================================
+       ELIGIBILITY TABS
+    ================================================ */
+    .eligibility-section {
+      position: relative;
+      padding: 80px 0;
+      overflow: hidden;
+      background: #0d1b73;
+    }
+
+    .elig-bg {
+      position: absolute !important;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: 0 !important;
+      transition: background-image 0.5s ease-in-out;
+    }
+
+    .bg-eligibility .elig-bg {
+      background-image: url('Assets/Assets/eligibility/bg picture (14).png');
+    }
+
+    .bg-fees .elig-bg {
+      background-image: url('Assets/Assets/fees & financing/bg picture (15).png');
+    }
+
+    .bg-payment .elig-bg {
+      background-image: url('Assets/Assets/flexible payment/bg picture (16).png');
+    }
+
+    .elig-overlay {
+      position: absolute !important;
+      inset: 0;
+      z-index: 1 !important;
+      background: linear-gradient(135deg, rgba(13, 27, 115, 0.82) 0%, rgba(106, 13, 173, 0.78) 50%, rgba(0, 194, 203, 0.72) 100%);
+    }
+
+    .eligibility-section>* {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Shared-width wrapper: tabs, fee table and eligibility content all align */
+    .elig-wrap {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Bootstrap nav-tabs override */
+    .elig-tabs {
+      border-bottom: none !important;
+      border-radius: 100px;
+      padding: 6px !important;
+      border: 1px solid rgba(255, 255, 255, 0.4) !important;
+      background: linear-gradient(90deg, #00C2CB 0%, #6A0DAD 50%, #0D1B73 100%) !important;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      display: flex !important;
+      width: 100%;
+      margin-bottom: 40px !important;
+      padding-left: 6px !important;
+      padding-right: 6px !important;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .elig-tabs .nav-item {
+      margin: 0 !important;
+      padding: 0 !important;
+      flex: 1 1 0;
+      display: flex;
+    }
+
+    .elig-tabs .nav-link {
+      flex: 1 1 0;
+      width: 100%;
+      color: rgba(255, 255, 255, 0.9) !important;
+      font-weight: 700;
+      font-size: 18px;
+      border-radius: 100px !important;
+      border: none !important;
+      padding: 15px 24px !important;
+      background: transparent !important;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+
+    .elig-tabs .nav-link:hover {
+      color: #ffffff !important;
+    }
+
+    .elig-tabs .nav-link.active {
+      background: #ffffff !important;
+      color: #0d1b73 !important;
+      font-weight: 700;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .elig-tab-inner {
+      background: transparent !important;
+      border: none !important;
+      border-radius: 0 !important;
+      padding: 0 !important;
+      backdrop-filter: none !important;
+      -webkit-backdrop-filter: none !important;
+      box-shadow: none !important;
+    }
+
+    .elig-section-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #FFD700 !important;
+      margin-top: 0;
+      margin-bottom: 18px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .elig-section-title.sec-2 {
+      margin-top: 34px;
+    }
+
+    .elig-list {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 24px;
+    }
+
+    .elig-list li {
+      position: relative;
+      padding-left: 28px;
+      color: #ffffff !important;
+      font-size: 19px;
+      line-height: 1.65;
+      margin-bottom: 14px;
+      font-weight: 700;
+    }
+
+    /* Nested numbered list must stack BELOW its parent line */
+    .elig-list .nested-gold-list {
+      width: 100%;
+    }
+
+    .elig-list li::before {
+      content: '\2022';
+      position: absolute;
+      left: 6px;
+      top: -1px;
+      color: #ffffff !important;
+      font-size: 22px;
+    }
+
+    .elig-para {
+      color: #ffffff;
+      font-size: 18px;
+      line-height: 1.8;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .nested-gold-list {
+      list-style: none;
+      padding-left: 28px;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    .nested-gold-list li {
+      display: flex;
+      gap: 8px;
+      color: #FFD700 !important;
+      font-size: 14.5px;
+      line-height: 1.8;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .nested-gold-list li::before {
+      content: none !important;
+    }
+
+    .fee-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      overflow: hidden;
+      margin-top: 0;
+      background: rgba(255, 255, 255, 0.02);
+      table-layout: fixed;
+    }
+
+    .fee-table th {
+      background: rgba(13, 27, 115, 0.4);
+      color: #FFD700 !important;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 20px 24px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      border-right: 1px solid rgba(255, 255, 255, 0.2);
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .fee-table th:nth-child(1),
+    .fee-table td:nth-child(1) {
+      width: 28%;
+    }
+
+    .fee-table th:nth-child(2),
+    .fee-table td:nth-child(2) {
+      width: 22%;
+    }
+
+    .fee-table th:last-child {
+      border-right: none;
+      width: 50%;
+    }
+
+    .fee-table td {
+      color: #ffffff !important;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 20px 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      border-right: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .fee-table td:last-child {
+      border-right: none;
+      width: 50%;
+    }
+
+    .fee-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .fee-table tr:nth-child(even) td {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    @media (max-width: 767.98px) {
+      .elig-tabs {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        border-radius: 20px !important;
+        padding: 10px !important;
+        gap: 8px !important;
+        background: linear-gradient(180deg, #00C2CB 0%, #6A0DAD 50%, #0D1B73 100%) !important;
+      }
+
+      .elig-tabs .nav-link {
+        width: 100% !important;
+        padding: 10px 20px !important;
+        border-radius: 12px !important;
+      }
+    }
+
+    @media (max-width: 575.98px) {
+      .elig-tab-inner {
+        padding: 30px 24px !important;
+      }
+    }
+
+    /* ================================================
+       TESTIMONIALS / STUDENT COMMUNITY
+    ================================================ */
+    .testimonials-section {
+      padding: 60px 0;
+      background: linear-gradient(93deg, #fff 3%, #fffcde 100%);
+    }
+
+    .sc-layout {
+      display: flex;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .sc-left-col {
+      flex: 0 0 300px;
+      width: 300px;
+      padding-top: 10px;
+    }
+
+    .test-main-title {
+      font-size: clamp(28px, 3.5vw, 44px);
+      font-weight: 900;
+      color: #0b1354;
+      line-height: 1.1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+      letter-spacing: -1px;
+    }
+
+    .test-main-title span {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 0;
+      white-space: nowrap;
+    }
+
+    /* Student Community heading accents — matched to the Figma design */
+    .test-main-title .text-purple {
+      color: #2a157e !important;
+    }
+
+    .test-main-title .text-cyan {
+      background: linear-gradient(90deg, #d6249f 0%, #6a0dad 45%, #38bdf8 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent !important;
+    }
+
+    .test-subtitle {
+      font-family: 'Merriweather', serif;
+      font-style: italic;
+      font-size: clamp(14px, 1.4vw, 17px);
+      color: #2b3783;
+      line-height: 1.5;
+      margin-top: 24px;
+      font-weight: 400;
+    }
+
+    .sc-right-col {
+      flex: 1;
+      min-width: 0;
+      position: relative;
+    }
+
+    .sc-slider-wrap {
+      overflow: hidden;
+      width: 100%;
+      padding: 10px 0;
+    }
+
+    .test-grid {
+      display: flex;
+      gap: 20px;
+      transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .test-card {
+      position: relative;
+      flex: 0 0 360px;
+      width: 360px;
+      height: 530px;
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 24px 20px;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      overflow: hidden;
+      box-sizing: border-box;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .test-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 48px rgba(0, 0, 0, 0.08);
+    }
+
+    .test-card.featured {
+      border: 2px solid #00c2cb;
+      box-shadow: 0 20px 48px rgba(0, 194, 203, 0.12);
+    }
+
+    .test-avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: #00C2CB;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px auto;
+      box-shadow: 0 6px 16px rgba(0, 194, 203, 0.2);
+      flex-shrink: 0;
+    }
+
+    .avatar-svg {
+      width: 30px;
+      height: 30px;
+      color: #ffffff;
+      stroke-width: 1.5;
+    }
+
+    .test-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0b1354;
+      text-align: center;
+      margin-bottom: 4px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .test-role {
+      font-size: 12px;
+      font-weight: 600;
+      color: #00C2CB;
+      text-align: center;
+      margin-bottom: 12px;
+      font-style: italic;
+      line-height: 1.4;
+      font-family: 'Montserrat', sans-serif;
+      min-height: auto;
+    }
+
+    .test-text {
+      font-size: 11px;
+      color: #444444;
+      line-height: 1.45;
+      font-weight: 500;
+      text-align: left;
+      margin-top: 0;
+      font-family: 'Montserrat', sans-serif;
+      flex-grow: 1;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .test-text::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .test-text::-webkit-scrollbar-thumb {
+      background: rgba(0, 194, 203, 0.2);
+      border-radius: 4px;
+    }
+
+    .sc-nav-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    @media (max-width: 1199.98px) {
+      .sc-layout {
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .sc-left-col {
+        width: 100%;
+        flex: none;
+        padding-top: 0;
+      }
+
+      .test-main-title {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .test-main-title span {
+        padding-bottom: 0;
+      }
+
+      .test-subtitle {
+        margin-top: 12px;
+      }
+
+      .test-card {
+        flex: 0 0 310px;
+        width: 310px;
+        height: 500px;
+        padding: 20px 16px;
+      }
+
+      .test-name {
+        font-size: 17px;
+      }
+
+      .test-role {
+        font-size: 11.5px;
+        margin-bottom: 12px;
+        min-height: auto;
+      }
+
+      .test-text {
+        font-size: 10.5px;
+        line-height: 1.4;
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      .test-main-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+      }
+
+      .test-card {
+        flex: 0 0 100%;
+        width: 100%;
+        height: 480px;
+        padding: 24px 20px;
+      }
+
+      .test-avatar {
+        width: 68px;
+        height: 68px;
+      }
+
+      .avatar-svg {
+        width: 28px;
+        height: 28px;
+      }
+    }
+
+
+    /* ================================================
+       VIDEO SECTION
+    ================================================ */
+    .video-section {
+      padding: 50px 0;
+    }
+
+    .video-box {
+      position: relative;
+      border-radius: 40px;
+      overflow: hidden;
+      display: block;
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+
+    .video-bg {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 40px;
+    }
+
+    .video-border {
+      position: absolute;
+      inset: 12px;
+      border: 3px dashed rgba(255, 255, 255, 0.7);
+      border-radius: 32px;
+      pointer-events: none;
+    }
+
+    .play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -60%);
+      width: 76px;
+      height: 76px;
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      color: #6a0dad;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s;
+    }
+
+    .video-box:hover .play-btn {
+      transform: translate(-50%, -60%) scale(1.1);
+    }
+
+    .video-text {
+      position: absolute;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255, 255, 255, 0.96);
+      color: #0d1b73;
+      padding: 10px 28px;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 14px;
+      white-space: nowrap;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* ================================================
+       JII (ABOUT)
+     ================================================ */
+    .jii-section {
+      position: relative;
+      width: 100%;
+      background: url('Assets/Assets/Jindal India Institute/bg frame (3).png') center/cover no-repeat;
+      padding: 60px 0 !important;
+      overflow: hidden;
+    }
+
+    .jii-overlay-col {
+      position: relative;
+      background: linear-gradient(135deg, rgba(13, 27, 115, 0.98) 0%, rgba(106, 13, 173, 0.96) 55%, rgba(11, 19, 84, 0.98) 100%);
+      padding: 80px 45px !important;
+      border-radius: 28px;
+      z-index: 2;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .jii-title {
+      font-size: clamp(32px, 4.5vw, 44px);
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 24px;
+      line-height: 1.15;
+      letter-spacing: -1px;
+    }
+
+    .jii-body {
+      font-size: 14.5px;
+      color: rgba(255, 255, 255, 0.92);
+      line-height: 1.6;
+      font-weight: 500;
+    }
+
+    .jii-body p+p {
+      margin-top: 14px;
+    }
+
+    .jii-body strong,
+    .jii-body b {
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    @media (max-width: 991.98px) {
+      .jii-section {
+        padding: 40px 0 !important;
+      }
+
+      .jii-overlay-col {
+        padding: 50px 24px !important;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        margin: 0 10px;
+      }
+    }
+
+    /* ================================================
+       FAQ
+    ================================================ */
+    .faq-section {
+      padding: 70px 0;
+      background: transparent;
+    }
+
+    .faq-main-title {
+      font-size: clamp(24px, 4vw, 40px);
+      font-weight: 800;
+      color: #0d1b73;
+      margin-bottom: 40px;
+    }
+
+    .faq-item {
+      background: #fff;
+      border: 1px solid rgba(13, 27, 115, 0.12) !important;
+      border-radius: 18px !important;
+      margin-bottom: 14px;
+      box-shadow: -2px 3px 6px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .faq-item .accordion-button {
+      background: #fff;
+      color: #6a0dad;
+      font-weight: 600;
+      font-size: 15px;
+      border-radius: 18px !important;
+      padding: 18px 22px;
+      box-shadow: none;
+      border: none;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .faq-item .accordion-button:not(.collapsed) {
+      background: #fff;
+      color: #6a0dad;
+      box-shadow: none;
+    }
+
+    .faq-item .accordion-button::after {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236a0dad'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+
+    .accordion-body {
+      font-size: 13.5px;
+      color: #444;
+      line-height: 1.7;
+      padding: 0 22px 18px;
+    }
+
+    /* ================================================
+       ENQUIRE NOW
+    ================================================ */
+    .enquire-section {
+      padding: 70px 0;
+      background: transparent;
+    }
+
+    .enquire-section-title {
+      font-size: clamp(26px, 4vw, 42px);
+      font-weight: 800;
+      color: #0d1b73;
+      margin-bottom: 40px;
+    }
+
+    .enquire-form-container {
+      background: linear-gradient(135deg, #0d1b73 0%, #6a0dad 50%, #00c2cb 100%);
+      border-radius: 40px;
+      overflow: hidden;
+      max-width: 980px;
+      margin: 0 auto;
+      box-shadow: 0 12px 40px rgba(13, 27, 115, 0.3);
+    }
+
+    .enquire-form-left {
+      padding: 40px 44px;
+    }
+
+    .enquire-form-right {
+      padding: 40px 44px;
+      background: rgba(0, 0, 0, 0.12);
+    }
+
+    .glass-input {
+      background: rgba(255, 255, 255, 0.14) !important;
+      border: none !important;
+      border-radius: 12px !important;
+      color: #fff !important;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 13px !important;
+      padding: 12px 16px !important;
+      margin-bottom: 12px;
+      width: 100%;
+      outline: none;
+    }
+
+    .glass-input::placeholder {
+      color: rgba(255, 255, 255, 0.6) !important;
+      font-style: italic;
+    }
+
+    .glass-input option {
+      color: #333;
+      background: #fff;
+    }
+
+    .glass-input:focus {
+      background: rgba(255, 255, 255, 0.2) !important;
+    }
+
+    .glass-input-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 0;
+    }
+
+    .glass-input-row .glass-prefix {
+      background: rgba(255, 255, 255, 0.14);
+      border-radius: 12px;
+      padding: 12px 14px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .glass-input-row .glass-input {
+      margin-bottom: 0;
+    }
+
+    .privacy-notice {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.75);
+      line-height: 1.5;
+      margin: 10px 0;
+    }
+
+    #enq-consent {
+      accent-color: #ffe500;
+    }
+
+    .btn-submit-yellow {
+      background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 55%, #00c2cb 100%);
+      color: #fff;
+      border: none;
+      border-radius: 40px;
+      padding: 14px;
+      font-weight: 800;
+      font-size: 18px;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      transition: all 0.2s;
+      margin-top: 6px;
+    }
+
+    .btn-submit-yellow:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+
+    .enquire-info-title {
+      font-size: clamp(20px, 2.5vw, 28px);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.35;
+      margin-bottom: 16px;
+    }
+
+    .enquire-info-sub {
+      font-size: 15px;
+      color: #ffe500;
+      line-height: 1.7;
+    }
+
+    /* ================================================
+       FOOTER
+    ================================================ */
+    footer {
+      background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 50%, #00c2cb 100%);
+      padding: 22px;
+    }
+
+    footer p {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0;
+      text-align: center;
+    }
+
+    /* ================================================
+       WHAT'S IN IT FOR YOU (CAROUSEL)
+    ================================================ */
+    .whats-in-it-section {
+      background: transparent;
+      padding: 60px 0 70px;
+    }
+
+    .wiifu-title {
+      font-family: 'Montserrat', sans-serif;
+      /* Figma: Montserrat Bold 72 / line-height 80 — scaled for responsive. */
+      font-size: clamp(32px, 5.2vw, 64px);
+      font-weight: 700;
+      line-height: 1.11;
+      letter-spacing: -0.5px;
+      /* Brand 3-stop gradient sweeping across the whole phrase
+         (navy → purple → cyan) — applied to the heading itself so the
+         single gradient spans both "What's in it for" and "you?". */
+      background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 50%, #00c2cb 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    .wiifu-title span {
+      /* "you?" inherits the parent gradient — no separate fill needed. */
+      background: inherit;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    .wiifu-carousel {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .wiifu-viewport {
+      overflow: hidden;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .wiifu-track {
+      display: flex;
+      gap: 24px;
+      transition: transform 0.45s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+
+    .wiifu-item {
+      flex: 0 0 auto;
+    }
+
+    .benefit-card {
+      position: relative;
+      aspect-ratio: 840 / 1053;
+      /* Fill the slider slot — the 24px track gap supplies the spacing. */
+      max-width: 100%;
+      margin: 0 auto;
+      /* Clip the card itself so the top corners are always perfectly smooth,
+         regardless of how object-fit: cover crops the baked image curve. */
+      border-radius: 32px;
+      overflow: hidden;
+      box-shadow: 0 14px 26px rgba(11, 19, 84, 0.22);
+    }
+
+    .benefit-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .benefit-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      /* Navy gradient backing reinforces the baked band so the longer copy
+         stays readable even when it rises above the baked gradient. */
+      background: linear-gradient(to top, rgba(11, 19, 84, 0.98) 55%, rgba(11, 19, 84, 0.75) 80%, rgba(11, 19, 84, 0) 100%);
+      padding: 22px 26px 26px;
+      color: #fff;
+      /* Figma has the card heading + subtitle flush-left in the gradient
+         band; make that explicit so nothing inherits center alignment. */
+      text-align: left;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .benefit-overlay h4 {
+      font-family: 'Montserrat', sans-serif;
+      /* Bumped to better match the Figma weight + presence on the gradient
+         (Figma reads as ~24px bold, breaking to two lines per card). */
+      font-size: clamp(18px, 1.5vw, 22px);
+      font-weight: 700;
+      margin-bottom: 8px;
+      line-height: 1.22;
+      letter-spacing: -0.2px;
+    }
+
+    .benefit-overlay p {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13.5px;
+      margin: 0;
+      opacity: 0.92;
+      line-height: 1.45;
+    }
+
+    .wiifu-nav {
+      flex: 0 0 auto;
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      border: none;
+      background: #0d1b73;
+      color: #fff;
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 16px rgba(13, 27, 115, 0.3);
+      transition: background 0.2s, transform 0.2s, opacity 0.2s;
+    }
+
+    .wiifu-nav:hover {
+      background: #6a0dad;
+      transform: scale(1.08);
+    }
+
+    .wiifu-nav:disabled {
+      opacity: 0.35;
+      cursor: default;
+      transform: none;
+    }
+
+    @media (max-width: 575.98px) {
+      .wiifu-nav {
+        width: 38px;
+        height: 38px;
+        font-size: 20px;
+      }
+    }
+
+    /* ================================================
+       RESPONSIVE
+    ================================================ */
+    @media (max-width: 1024px) {
+      .hero-inner {
+        padding: 28px 28px 28px;
+      }
+
+      .header-section .container {
+        padding-left: 28px;
+        padding-right: 28px;
+      }
+
+      .hero-text-col {
+        flex: 0 0 52%;
+        max-width: 52%;
+      }
+
+      .hero-form-col {
+        flex: 0 0 46%;
+        max-width: 46%;
+      }
+
+      /* No room for the centered student image at tablet widths —
+         fade it into the background behind the form instead of overlapping text. */
+      .hero-student {
+        left: auto;
+        right: 0;
+        transform: none;
+        height: 100%;
+        opacity: 0.16;
+      }
+
+      .faculty-card {
+        flex: 0 0 calc(33.33% - 16px);
+      }
+
+      .test-card {
+        flex: 0 0 calc(50% - 9px);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero-inner {
+        flex-direction: column;
+        padding: 24px 20px 40px;
+        min-height: auto;
+        text-align: center;
+      }
+
+      .hero-text-col,
+      .hero-form-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      .hero-title {
+        white-space: normal;
+      }
+
+      .hero-divider {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-student {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        height: 70%;
+        opacity: 0.12;
+      }
+
+      .header-section .container {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .hero-section::after {
+        background: rgba(255, 255, 255, 0.70);
+      }
+
+      .hero-pretitle {
+        font-size: 14px;
+      }
+
+      .info-tile-label {
+        font-size: 9px;
+      }
+
+      .info-tile-value {
+        font-size: 12px;
+      }
+
+      .info-tile {
+        padding: 18px 6px;
+      }
+
+      /* Increased vertical padding on mobile for spacing */
+
+      .features-section {
+        border-radius: 24px 24px 0 0;
+        padding: 50px 0 54px;
+        margin-top: 0;
+      }
+
+      .slider-wrapper {
+        margin: 0 38px;
+      }
+
+      .slider-item {
+        display: flex;
+        flex-direction: column;
+        padding: 0 16px;
+      }
+
+      .feature-card {
+        height: auto;
+        flex: 1;
+      }
+
+      .card-overlay {
+        padding: 12px 14px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .faculty-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+      .faculty-grid {
+        gap: 20px;
+      }
+
+      .test-card {
+        flex: 0 0 100%;
+        width: 100%;
+      }
+
+      .sc-layout {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .sc-left-col {
+        width: 100%;
+        padding-top: 0;
+      }
+
+      .test-main-title {
+        font-size: 26px;
+      }
+
+      .case-studies-section .row>div {
+        margin-bottom: 24px;
+      }
+
+      .case-card {
+        flex-direction: column;
+        padding: 16px;
+        min-height: auto;
+        gap: 16px;
+      }
+
+      .case-card-img {
+        flex: 0 0 auto;
+        max-width: 100%;
+        width: 100%;
+        height: 180px;
+        margin-bottom: 0;
+        aspect-ratio: auto;
+      }
+
+      .case-body {
+        padding: 0;
+      }
+
+      .elig-tab-inner {
+        padding: 26px 18px;
+      }
+
+      .jii-section {
+        padding: 50px 20px 40px;
+      }
+
+      .about-prog-images {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .about-images-left-col {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .about-prog-images .img-campus {
+        height: 280px;
+      }
+
+      .about-prog-images .img-collage-wrap {
+        display: none;
+      }
+
+      .about-prog-cta-tile {
+        height: auto;
+        min-height: 110px;
+      }
+
+      .enquire-form-container {
+        border-radius: 20px;
+      }
+
+      .enquire-form-left,
+      .enquire-form-right {
+        padding: 28px 22px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .who-section .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+
+      .info-tile {
+        flex: 0 0 50%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      }
+    }
+
+    /* ================================================
+       RECOGNITIONS RESPONSIVE
+    ================================================ */
+    @media (max-width: 991px) {
+      .recognitions-badges {
+        flex-wrap: wrap;
+        gap: 15px;
+        /* Reset desktop bleed (calc(100% + 32px) + negative margin) so the
+           tablet 2-column grid sits cleanly inside the section, no h-scroll. */
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+      }
+
+      .rec-badge {
+        flex: 0 0 45% !important;
+      }
+
+      .rec-badge-center {
+        flex: 0 0 100% !important;
+        order: -1;
+        margin-bottom: 20px;
+        max-width: 320px;
+        /* Cancel desktop scale(1.05) — at 100% width it would overflow. */
+        transform: none !important;
+      }
+
+      .recognitions-inner {
+        /* Add horizontal padding so wrapped badges aren't flush with the
+           viewport edges on tablet. */
+        padding: 0 20px;
+      }
+
+      .recognitions-body {
+        min-height: auto;
+        padding: 60px 0;
+      }
+
+      .recognitions-title {
+        font-size: 32px !important;
+        margin-bottom: 36px !important;
+      }
+    }
+
+    /* Mobile carousel mode (JS swaps .recognitions-badges into an Owl
+       carousel at ≤768px). Reset our desktop bleed/margins so Owl can lay
+       out cleanly, and cap badge size so a single slide doesn't dominate
+       the viewport. */
+    .recognitions-badges.owl-carousel {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin: 0 auto !important;
+      padding: 0 10px;
+      display: block !important;
+    }
+
+    .recognitions-badges.owl-carousel .owl-stage-outer {
+      padding: 6px 0;
+    }
+
+    .recognitions-badges.owl-carousel .owl-dots {
+      margin-top: 18px;
+    }
+
+    .recognitions-badges.owl-carousel .owl-dots .owl-dot span {
+      background: rgba(13, 27, 115, 0.35);
+      width: 9px;
+      height: 9px;
+    }
+
+    .recognitions-badges.owl-carousel .owl-dots .owl-dot.active span,
+    .recognitions-badges.owl-carousel .owl-dots .owl-dot:hover span {
+      background: #6a0dad;
+    }
+
+    @media (max-width: 576px) {
+
+      .rec-badge,
+      .rec-badge-center {
+        flex: 0 0 85% !important;
+        max-width: 100% !important;
+      }
+
+      .recognitions-title {
+        font-size: 26px !important;
+        margin-bottom: 28px !important;
+      }
+
+      .recognitions-body {
+        padding: 44px 0 36px;
+      }
+
+      /* Tighten the owl badge so it doesn't take ~90% of a phone screen. */
+      .owl-carousel .rec-badge,
+      .owl-carousel .rec-badge-large,
+      .owl-carousel .rec-badge-center {
+        max-width: 260px !important;
+        padding: 14px !important;
+      }
+    }
+
+    /* ================================================
+       FIGMA FIDELITY OVERRIDES
+    ================================================ */
+    /* --- Fix broken background image paths --- */
+    .recognitions-body {
+      background:
+        linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.55) 12%, rgba(255, 255, 255, 0) 27%),
+        url('Assets/Recognitions/bg picture.png') bottom center / cover no-repeat !important;
+    }
+
+    .bg-eligibility .elig-bg {
+      background-image: url('Assets/Eligibility/bg picture (39).png') !important;
+    }
+
+    .bg-fees .elig-bg {
+      background-image: url('Assets/Fee structure/bg picture (38).png') !important;
+    }
+
+    /* --- Skills You'll Acquire (carousel: icon + text grid) --- */
+    .skills-heading {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: clamp(34px, 4.6vw, 56px);
+      letter-spacing: -0.01em;
+      margin-bottom: 56px;
+    }
+
+    .skills-carousel {
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .skills-track {
+      display: flex;
+      transition: transform 0.45s ease;
+    }
+
+    .skills-slide {
+      flex: 0 0 100%;
+      min-width: 100%;
+    }
+
+    .skills-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px 56px;
+      padding: 30px 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    }
+
+    .skills-row--2 {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    .skills-slide--2col .skills-row:last-child {
+      border-bottom: none;
+    }
+
+    .skill-item {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .skill-item > img {
+      width: 84px;
+      height: 84px;
+      flex-shrink: 0;
+      object-fit: contain;
+    }
+
+    .skill-icon {
+      position: relative;
+      isolation: isolate;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 6px 14px rgba(106, 13, 173, 0.28);
+    }
+
+    .skill-icon::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #0d1b73 0%, #6a0dad 55%, #00c2cb 100%);
+      z-index: 1;
+    }
+
+    .skill-icon::after {
+      content: '';
+      position: absolute;
+      width: 84px;
+      height: 84px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: url('Assets/Skills You’ll Acquire/image.png') center/contain no-repeat;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .skill-item .skill-icon img {
+      position: relative;
+      z-index: 2;
+      width: 32px;
+      height: 32px;
+      filter: brightness(0) invert(1);
+    }
+
+    .skills-row:last-child {
+      border-bottom: none;
+    }
+
+    .skill-item h6 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(19px, 1.7vw, 24px);
+      font-weight: 700;
+      color: #6A0DAD;
+      margin: 0;
+      line-height: 1.3;
+      letter-spacing: -0.01em;
+      text-align: left;
+    }
+
+    .skills-dots {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 40px;
+    }
+
+    .skills-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: none;
+      padding: 0;
+      background: #C4CAEA;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .skills-dot.active {
+      background: #1c2678;
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 900px) {
+      .skills-row {
+        grid-template-columns: 1fr 1fr;
+        gap: 26px 30px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .skills-row {
+        grid-template-columns: 1fr;
+        gap: 22px;
+      }
+
+      .skill-item img {
+        width: 68px;
+        height: 68px;
+      }
+    }
+
+    /* --- Who Is This Programme For (dark band + cards) --- */
+    .who-band {
+      position: relative;
+      background: url('Assets/Who Is This Programme For/IMAGE/Rectangle 774.png') center / cover no-repeat;
+      padding: 90px 0 104px;
+      overflow: hidden;
+    }
+
+    .who-band::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, rgba(20, 35, 180, 0.85) 0%, rgba(13, 27, 115, 0.82) 100%);
+    }
+
+    .who-cards {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      gap: 24px;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      padding: 10px 0 18px;
+      margin: 0 64px;
+      scrollbar-width: none;
+      cursor: grab;
+    }
+
+    .who-cards::-webkit-scrollbar {
+      display: none;
+    }
+
+    .who-cards.dragging {
+      cursor: grabbing;
+      scroll-snap-type: none;
+    }
+
+    .who-carousel {
+      position: relative;
+    }
+
+    .who-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: #ffffff;
+      color: #0d1b73;
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1;
+      border: none;
+      cursor: pointer;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+      transition: transform 0.2s, background 0.2s, color 0.2s;
+    }
+
+    .who-nav:hover {
+      background: #FFD700;
+      color: #0d1b73;
+      transform: translateY(-50%) scale(1.08);
+    }
+
+    .who-nav:disabled {
+      opacity: 0.4;
+      cursor: default;
+      transform: translateY(-50%);
+    }
+
+    .who-prev { left: 4px; }
+    .who-next { right: 4px; }
+
+    .who-card2 {
+      flex: 0 0 240px;
+      width: 240px;
+      min-height: 250px;
+      scroll-snap-align: start;
+      background: linear-gradient(180deg, #FFFFFF 0%, #EAE3F5 100%);
+      border-radius: 24px;
+      padding: 28px 20px;
+      text-align: center;
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.22);
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (max-width: 576px) {
+      .who-prev { left: 0; }
+      .who-next { right: 0; }
+      .who-nav { width: 40px; height: 40px; font-size: 22px; }
+    }
+
+    .who-card2:hover {
+      transform: translateY(-6px);
+    }
+
+    .who-card2 .who-ic {
+      margin: 0 auto 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .who-card2 .who-ic img {
+      width: 72px;
+      height: 72px;
+    }
+
+    .who-card2 h6 {
+      color: #0D1B73;
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(15px, 1.3vw, 18px);
+      font-weight: 700;
+      margin: 0;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+    }
+
+    /* --- Career Pathways (light section + inset gradient panel) --- */
+    .career-pathways-section {
+      background: linear-gradient(135deg, #f7f2fd 0%, #f7eef8 55%, #fbeef7 100%);
+      padding: 64px 24px;
+    }
+
+    .career-panel {
+      max-width: 1280px;
+      margin: 0 auto;
+      background: url('Assets/Career Pathways/IMAGE/bg image (13).png') center / cover no-repeat;
+      border-radius: 42px;
+      padding: 90px 54px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .career-inner {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .career-left {
+      flex: 0 0 28%;
+      max-width: 28%;
+      color: #fff;
+    }
+
+    .career-left h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: clamp(42px, 4.6vw, 72px);
+      line-height: 1.1;
+      margin-bottom: 26px;
+    }
+
+    .career-left p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(16px, 1.4vw, 19px);
+      line-height: 1.6;
+      font-weight: 400;
+      color: #eef0ff;
+      max-width: 94%;
+    }
+
+    .career-carousel {
+      flex: 1;
+      position: relative;
+      min-width: 0;
+    }
+
+    .career-cards {
+      display: grid;
+      grid-template-columns: repeat(4, 224px);
+      grid-template-rows: repeat(2, auto);
+      gap: 22px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+      padding: 4px 2px 14px;
+      cursor: grab;
+    }
+
+    .career-cards::-webkit-scrollbar { display: none; }
+    .career-cards.dragging { cursor: grabbing; scroll-snap-type: none; }
+
+    .career-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #ffffff;
+      color: #0d1b73;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 1;
+      border: none;
+      cursor: pointer;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .career-nav:hover {
+      background: #FFD700;
+      transform: translateY(-50%) scale(1.08);
+    }
+
+    .career-nav:disabled {
+      opacity: 0.4;
+      cursor: default;
+      transform: translateY(-50%);
+    }
+
+    .career-prev { left: -12px; }
+    .career-next { right: -12px; }
+
+    .pathway-card {
+      width: 220px;
+      max-width: 220px;
+      height: 220px;
+      background: linear-gradient(160deg, #ffffff 0%, #eef0fb 100%);
+      border-radius: 26px;
+      padding: 24px 22px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 16px 32px rgba(13, 10, 60, 0.28);
+      scroll-snap-align: start;
+    }
+
+    .pc-head {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      width: 100%;
+    }
+
+    .pc-icon {
+      width: 44px;
+      height: 44px;
+      flex-shrink: 0;
+      object-fit: contain;
+    }
+
+    .pc-title {
+      color: #6A0DAD;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1.3;
+      letter-spacing: -0.02em;
+      margin: 0;
+      text-align: left;
+    }
+
+    .pc-desc {
+      color: #3a3a52;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13.5px;
+      line-height: 1.5;
+      margin: 0;
+      font-weight: 400;
+    }
+
+    @media (max-width: 991.98px) {
+      .career-inner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+      }
+
+      .career-left {
+        flex: none;
+        max-width: 100%;
+        text-align: center;
+      }
+
+      .career-left p {
+        max-width: 100%;
+        margin: 0 auto;
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      .pathway-card {
+        flex: 0 0 calc((100% - 22px) / 2);
+        max-width: calc((100% - 22px) / 2);
+      }
+
+      .career-panel {
+        padding: 40px 26px;
+        border-radius: 30px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .pathway-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+
+    /* --- Need To Know More --- */
+    .ntk-img {
+      width: 100%;
+      border-radius: 20px;
+      display: block;
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+    }
+
+    .btn-brochure {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(180deg, #0D1B73 18%, #6A0DAD 100%);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 1px;
+      padding: 20px 40px;
+      border: none;
+      border-radius: 50px;
+      text-decoration: none;
+      text-transform: uppercase;
+      box-shadow: 0 8px 20px rgba(13, 27, 115, 0.25);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-brochure:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 30px rgba(13, 27, 115, 0.35);
+      color: #ffffff;
+    }
+
+    /* --- Why Choose JGU (static card row) --- */
+    /* Why Choose JGU — split: white title block + bg image card row */
+    .features-section--split {
+      background: #fff !important;
+      padding: 0 !important;
+      border-radius: 0 !important;
+      overflow: visible !important;
+    }
+    .features-section--split::before { display: none !important; }
+    .features-head {
+      padding: 70px 24px 50px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .features-title {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: clamp(30px, 4vw, 56px);
+      color: #0d1b73;
+      margin: 0 0 18px;
+      line-height: 1.1;
+      text-shadow: none;
+    }
+    .features-sub {
+      color: #4a4a5a;
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(15px, 1.15vw, 19px);
+      line-height: 1.65;
+      max-width: 920px;
+      margin: 0 auto;
+      text-shadow: none;
+    }
+    .features-bg {
+      position: relative;
+      padding: 70px 24px 90px;
+      overflow: hidden;
+    }
+    .features-bg__overlay {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg,
+          rgba(48, 0, 110, 0.50) 0%,
+          rgba(140, 0, 170, 0.42) 30%,
+          rgba(80, 0, 160, 0.38) 55%,
+          rgba(0, 180, 200, 0.42) 80%,
+          rgba(0, 140, 180, 0.50) 100%);
+      z-index: 0;
+    }
+    .features-bg .container { position: relative; z-index: 1; }
+
+    .why-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .why-card {
+      flex: 1 1 0;
+      min-width: 190px;
+      max-width: 235px;
+      min-height: 290px;
+      background: linear-gradient(180deg, #ffffff 0%, #f3f0fb 100%);
+      border-radius: 20px;
+      padding: 32px 24px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .why-card:hover {
+      transform: translateY(-10px) scale(1.035);
+      box-shadow: 0 22px 44px rgba(0, 0, 0, 0.30);
+    }
+
+    .why-card img {
+      width: 42px;
+      height: 42px;
+      margin-bottom: 18px;
+    }
+
+    .why-card h4 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #0d1b73;
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    .why-card p {
+      font-size: 12.5px;
+      color: #444;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    /* --- Recognitions: purple badge cards over campus bg (matches Figma) --- */
+    .rec-badge {
+      background: linear-gradient(180deg, #6A0DAD 0%, #0d1b73 100%) !important;
+      border: 3px solid rgba(255, 255, 255, 0.9) !important;
+      border-radius: 24px !important;
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.30) !important;
+      padding: 20px !important;
+    }
+
+    .rec-badge-center {
+      flex: 0 0 26% !important;
+      transform: none !important;
+    }
+
+    /* --- FAQ circular toggle --- */
+    .faq-item .accordion-button::after {
+      width: 30px;
+      height: 30px;
+      border: 1.5px solid #6a0dad;
+      border-radius: 50%;
+      background-size: 14px;
+      background-position: center;
+      flex-shrink: 0;
+    }
+
+    /* ================================================
+       MBA OVERRIDES — eligibility / fees backgrounds
+    ================================================ */
+    .bg-eligibility .elig-bg {
+      background-image: url('Assets/eligibility/bg picture (10).png') !important;
+    }
+    .bg-fees .elig-bg {
+      background-image: url('Assets/fees structure/bg picture (8).png') !important;
+    }
+
+    /* ================================================
+       AACSB INTERNATIONAL
+    ================================================ */
+    .aacsb-section {
+      background: transparent;
+      padding: 80px 0 70px;
+    }
+
+    /* Sub-sections 1 & 2 are white cards with a soft shadow */
+    .aacsb-block {
+      background: #ffffff;
+      border-radius: 28px;
+      box-shadow: 0 18px 48px rgba(13, 27, 115, 0.10);
+      border: 1px solid rgba(13, 27, 115, 0.06);
+      padding: 44px 48px;
+      margin-bottom: 30px;
+    }
+
+    /* Header row: text 3 / badge 1 */
+    .aacsb-head {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      margin-bottom: 22px;
+    }
+
+    .aacsb-title {
+      flex: 3 1 0;
+      min-width: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(26px, 3.4vw, 44px);
+      font-weight: 800;
+      line-height: 1.12;
+      letter-spacing: -0.01em;
+      margin: 0;
+      background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 50%, #00c2cb 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    .aacsb-badge-img {
+      flex: 1 1 0;
+      width: 100%;
+      max-width: 340px;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .aacsb-body {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(14px, 1.1vw, 16px);
+      color: #2a2a2a;
+      line-height: 1.75;
+      margin-bottom: 14px;
+    }
+    .aacsb-body:last-child { margin-bottom: 0; }
+    .aacsb-body strong { color: #0d1b73; font-weight: 700; }
+
+    /* DASCA card: text left, badge right (on 2 title lines) */
+    .dasca-wrap {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .dasca-text { flex: 1 1 480px; min-width: 280px; }
+    .dasca-text .aacsb-body { text-align: justify; }
+
+    .dasca-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(24px, 3vw, 38px);
+      font-weight: 800;
+      color: #111111;
+      line-height: 1.15;
+      margin-bottom: 18px;
+      letter-spacing: -0.01em;
+    }
+    .dasca-title .accent {
+      background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 50%, #00c2cb 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    .dasca-badge {
+      flex: 0 0 auto;
+      width: clamp(220px, 27vw, 360px);
+    }
+    .dasca-badge img { width: 100%; height: auto; object-fit: contain; }
+
+    /* Section 3 — two gradient cards (narrower + taller) */
+    .aacsb-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 36px;
+      max-width: 980px;
+      margin: 40px auto 0;
+    }
+
+    .aacsb-card {
+      border-radius: 40px;
+      padding: 40px 38px;
+      min-height: 380px;
+      color: #fff;
+      border: 3px solid rgba(0, 0, 0, 0.12);
+      box-shadow: 0 18px 44px rgba(13, 27, 115, 0.28);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .aacsb-card--apart {
+      background: linear-gradient(125deg, #0d1b73 0%, #3b2f9e 45%, #00c2cb 100%);
+    }
+    .aacsb-card--career {
+      background: linear-gradient(125deg, #00c2cb 0%, #6a0dad 55%, #7b1fb5 100%);
+    }
+
+    .aacsb-card h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(19px, 1.8vw, 24px);
+      font-weight: 800;
+      color: #ffd700;
+      margin-bottom: 24px;
+      letter-spacing: -0.01em;
+    }
+
+    .aacsb-card-list { list-style: none; padding: 0; margin: 0; }
+    .aacsb-card-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 20px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      font-weight: 500;
+    }
+    .aacsb-card-list li:last-child { margin-bottom: 0; }
+    .aacsb-card-list img {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 7px;
+      object-fit: contain;
+    }
+
+    .aacsb-card--career p {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+    .aacsb-card--career p:last-child { margin-bottom: 0; }
+    .aacsb-card--career strong { color: #ffd700; font-weight: 700; }
+
+    @media (max-width: 767.98px) {
+      .aacsb-block { padding: 28px 22px; }
+      .aacsb-head { flex-direction: column; align-items: flex-start; gap: 16px; }
+      .aacsb-badge-img { max-width: 200px; }
+      .aacsb-cards { grid-template-columns: 1fr; gap: 20px; }
+      .aacsb-card { min-height: 0; }
+      .dasca-wrap { flex-direction: column; align-items: flex-start; gap: 22px; }
+    }
+
+    /* ================================================
+       INDUSTRY TOOLS YOU WILL MASTER (tabbed card)
+    ================================================ */
+    .tools-section {
+      background: transparent;
+      padding: 70px 0 80px;
+    }
+
+    .tools-card {
+      max-width: 1180px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 34px;
+      padding: 40px 44px 48px;
+      box-shadow: 0 24px 60px rgba(13, 27, 115, 0.14);
+      border: 1px solid rgba(13, 27, 115, 0.06);
+    }
+
+    .tools-tabs {
+      display: flex;
+      width: 100%;
+      margin: 0 auto 48px;
+      border-radius: 100px;
+      padding: 6px;
+      gap: 6px;
+      background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 52%, #00c2cb 100%);
+      box-shadow: 0 10px 26px rgba(13, 27, 115, 0.22);
+    }
+    .tools-tab {
+      flex: 1 1 0;
+      border: none;
+      background: transparent;
+      color: rgba(255, 255, 255, 0.92);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: clamp(14px, 1.4vw, 19px);
+      padding: 15px 20px;
+      border-radius: 100px;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+      white-space: nowrap;
+    }
+    .tools-tab.active {
+      background: rgba(255, 255, 255, 0.20);
+      color: #ffffff;
+    }
+
+    .tools-panel { display: none; }
+    .tools-panel.active { display: block; }
+
+    /* Tools carousel */
+    .tools-carousel { position: relative; }
+    .tools-cards {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 10px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+      cursor: grab;
+      margin: 0 50px;
+      padding: 6px 0 10px;
+    }
+    .tools-cards::-webkit-scrollbar { display: none; }
+    .tools-cards.dragging { cursor: grabbing; scroll-snap-type: none; }
+
+    .tool-card {
+      flex: 0 0 calc((100% - 4 * 10px) / 5);
+      min-width: 170px;
+      scroll-snap-align: start;
+      text-align: center;
+    }
+    .tool-card img {
+      width: clamp(140px, 13vw, 185px);
+      height: clamp(140px, 13vw, 185px);
+      object-fit: contain;
+      margin: 0 auto 16px;
+      display: block;
+    }
+    .tool-card p {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12.5px;
+      line-height: 1.5;
+      color: #444;
+      margin: 0;
+      padding: 0 8px;
+    }
+
+    .tools-nav {
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      width: 30px;
+      height: 30px;
+      background: transparent;
+      color: #1a1f8f;
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 800;
+      border: none;
+      cursor: pointer;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+    .tools-nav:hover { transform: translateY(-50%) scale(1.25); color: #0d1b73; }
+    .tools-nav:disabled { opacity: 0.3; cursor: default; transform: translateY(-50%); }
+    .tools-prev { left: -10px; }
+    .tools-next { right: -10px; }
+
+    .tools-footnote {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: clamp(15px, 1.4vw, 19px);
+      line-height: 1.5;
+      margin: 34px auto 0;
+      max-width: 720px;
+      background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 55%, #00c2cb 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    /* Certifications panel */
+    .certs-intro {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(15px, 1.2vw, 17px);
+      color: #333;
+      line-height: 1.7;
+      margin-bottom: 24px;
+    }
+    .certs-intro strong { color: #0d1b73; font-weight: 700; }
+    .certs-list { list-style: none; padding: 0; margin: 0 0 28px; }
+    .certs-list li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: clamp(14px, 1.2vw, 17px);
+      margin-bottom: 14px;
+    }
+    .certs-list li::before {
+      content: '\2713';
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #d7d7e3;
+      color: #fff;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .certs-list li:nth-child(1) { color: #6a0dad; }
+    .certs-list li:nth-child(2) { color: #2a157e; }
+    .certs-list li:nth-child(3) { color: #1f6fd1; }
+    .certs-list li:nth-child(4) { color: #00b4d8; }
+    .certs-outro {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(15px, 1.2vw, 17px);
+      color: #333;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    @media (max-width: 991.98px) {
+      .tool-card { flex: 0 0 calc((100% - 2 * 10px) / 3); }
+    }
+    @media (max-width: 575.98px) {
+      .tools-card { padding: 28px 18px 34px; border-radius: 24px; }
+      .tools-cards { margin: 0 40px; }
+      .tool-card { flex: 0 0 calc(100% - 0px); min-width: 0; }
+    }
+
+    /* ================================================
+       HOW DOES JGU STAND APART (comparison table)
+    ================================================ */
+    .compare-section {
+      background: transparent;
+      padding: 80px 0;
+    }
+    .compare-card {
+      max-width: 1180px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 24px;
+      padding: 50px 40px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    }
+    .compare-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(26px, 3vw, 44px);
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.2;
+      margin-bottom: 10px;
+      color: #000;
+    }
+    .compare-title .grad {
+      background: linear-gradient(90deg, #0D1B73 0%, #6A0DAD 85%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+    .compare-table {
+      width: 100%;
+      margin-top: 30px;
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+    .compare-table th,
+    .compare-table td {
+      padding: 20px;
+      vertical-align: top;
+      border-bottom: 1px solid #eaeaea;
+    }
+    .compare-table thead th {
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(14px, 1.3vw, 20px);
+      font-weight: 600;
+      text-align: left;
+      border-right: 2px solid #fff;
+      vertical-align: middle;
+    }
+    .compare-table thead th:last-child { border-right: none; }
+    .compare-table thead th:nth-child(1) {
+      background: linear-gradient(90deg, #321074 0%, #3b148c 100%);
+      width: 25%;
+      border-radius: 10px 0 0 0;
+    }
+    .compare-table thead th:nth-child(2) {
+      background: linear-gradient(90deg, #3b148c 0%, #4719a6 100%);
+      width: 37.5%;
+    }
+    .compare-table thead th:nth-child(3) {
+      background: linear-gradient(90deg, #4719a6 0%, #561bb5 100%);
+      width: 37.5%;
+      border-radius: 0 10px 0 0;
+    }
+    .compare-table tbody td {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(13px, 1vw, 16px);
+      line-height: 1.5;
+      color: #444;
+    }
+    .compare-table tbody td:first-child {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #333;
+    }
+    .compare-table tbody td:nth-child(2) { background: #efefef; }
+    .compare-table tbody tr:last-child td { border-bottom: none; }
+    @media (max-width: 767.98px) {
+      .compare-card { padding: 30px 20px; border-radius: 20px; }
+      .compare-table th, .compare-table td { padding: 11px 10px; }
+    }
+
+    /* ================================================
+       CAREER OUTCOMES (IAF style — 2-col scroll grid)
+    ================================================ */
+    .career-section-container {
+      padding: 80px 0;
+      background: transparent;
+    }
+    .career-card-wrapper {
+      background: url('Assets/Career outcomes/IMAGE/bg image (2).png') center / cover no-repeat;
+      border-radius: 40px;
+      padding: 60px 40px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    }
+    .career-main-title {
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(32px, 3.4vw, 48px);
+      font-weight: 700;
+      line-height: 1.3;
+      margin: 0;
+    }
+    .career-highlight { color: #00bcd4; }
+    .career-scroll-container {
+      max-height: 480px;
+      overflow-y: auto;
+      padding-right: 20px;
+    }
+    .career-scroll-container::-webkit-scrollbar { width: 14px; }
+    .career-scroll-container::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+    }
+    .career-scroll-container::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #110066, #00bcd4);
+      border-radius: 20px;
+      border: 3px solid rgba(255, 255, 255, 0.2);
+      background-clip: padding-box;
+    }
+    .career-grid-new {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .career-card-new {
+      background: #fff;
+      border-radius: 0 22px 22px 22px;
+      padding: 20px 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .career-card-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .career-card-icon { width: 44px; height: 44px; object-fit: contain; flex-shrink: 0; }
+    .career-card-title {
+      color: #0d1b73;
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(14px, 1.2vw, 17px);
+      font-weight: 800;
+      margin: 0;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+    .career-card-desc {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(12px, 0.95vw, 13.5px);
+      color: #333;
+      line-height: 1.5;
+      margin: 0;
+    }
+    @media (max-width: 991px) {
+      .career-grid-new { grid-template-columns: repeat(2, 1fr); }
+      .career-card-wrapper { padding: 40px 20px; }
+      .career-scroll-container { margin-top: 30px; max-height: 460px; }
+    }
+    @media (max-width: 575px) {
+      .career-grid-new { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !(function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod
+          ? n.callMethod.apply(n, arguments)
+          : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = "2.0";
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(
+      window,
+      document,
+      "script",
+      "https://connect.facebook.net/en_US/fbevents.js"
+    );
+    fbq("init", "1243343920376799");
+    fbq("track", "PageView");
+  </script>
+  <noscript>
+    <img
+      height="1"
+      width="1"
+      src="https://www.facebook.com/tr?id=1243343920376799&ev=PageView&noscript=1"
+    />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-N94ZC5LW"
+    height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- ══════════════════════════════════════════
+     HEADER
+══════════════════════════════════════════ -->
+  <header class="header-section section-global">
+    <div class="container">
+      <div class="logo-flex-container">
+        <img src="Assets/Hero section/LOGOS/LOGOS.png" class="header-logo-img" alt="O.P. Jindal Global University" />
+        <img src="Assets/Hero section/LOGOS/mba logo black.png" class="header-logo-img" alt="Jindal Global Business School" />
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════
+     HERO SECTION
+══════════════════════════════════════════ -->
+  <section class="hero-section section-global">
+    <div class="container-fluid px-0">
+
+      <div class="hero-inner">
+
+        <!-- Centre: Student image (sits behind, head above the title) -->
+        <img src="Assets/Hero section/STUDENT IMAGE.png" class="hero-student" alt="" aria-hidden="true" />
+
+        <!-- Left: Text -->
+        <div class="hero-text-col">
+          <h1 class="hero-title hero-title--mixed"><span class="hero-ma-inline">MBA in</span><br><span class="text-gradient-studies">Business Analytics</span></h1>
+          <div class="hero-divider"></div>
+          <p class="hero-tagline">ACCELERATE YOUR CAREER WITH INDIA'S LEADING ONLINE MBA IN BUSINESS ANALYTICS</p>
+          <button type="button" class="npfWidgetButton btn-cta npfWidget-b5d5c72ac57446a628c59b0daa12b068">ENROLL NOW</button>
+        </div>
+
+        <!-- Right: Enquire Form -->
+        <div class="hero-form-col">
+          <div class="enquire-hero-card">
+            <h3 class="enquire-hero-title">ENQUIRE HERE!</h3>
+            <div class="npf_wgts" data-height="400px" data-w="b5d5c72ac57446a628c59b0daa12b068"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Info Bar -->
+      <div class="hero-info-bar">
+        <div class="info-tile">
+          <span class="info-tile-label">Postgraduate</span>
+          <span class="info-tile-value">Degree</span>
+        </div>
+        <div class="info-tile">
+          <span class="info-tile-label">Duration:</span>
+          <span class="info-tile-value">1 Year</span>
+        </div>
+        <div class="info-tile">
+          <span class="info-tile-label">Batch Starts:</span>
+          <span class="info-tile-value">September 2026</span>
+        </div>
+        <div class="info-tile">
+          <span class="info-tile-label">Fully Online</span>
+          <span class="info-tile-value">Programme</span>
+        </div>
+        <div class="info-tile">
+          <span class="info-tile-label">Easy EMI</span>
+          <span class="info-tile-value">Options</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     WHAT'S IN IT FOR YOU
+══════════════════════════════════════════ -->
+  <section class="whats-in-it-section section-global">
+    <div class="container text-center mb-5">
+      <h2 class="wiifu-title">What's in it for <span>you?</span></h2>
+    </div>
+    <div class="container">
+      <div class="wiifu-carousel">
+        <button type="button" class="wiifu-nav wiifu-prev" aria-label="Previous">&#8249;</button>
+        <div class="wiifu-viewport">
+          <div class="wiifu-track">
+
+            <!-- Card 1 -->
+            <div class="wiifu-item">
+              <div class="benefit-card">
+                <img src="Assets/whats in it for you/IMG internship opportunities.png" alt="A High-Impact, Research-Grounded MBA Experience">
+                <div class="benefit-overlay">
+                  <h4>A High-Impact, Research-Grounded MBA Experience</h4>
+                  <p>Engage in a carefully curated learning journey that blends academic rigour with practical business relevance, designed for professionals aiming to lead in data-driven environments.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="wiifu-item">
+              <div class="benefit-card">
+                <img src="Assets/whats in it for you/IMG flexible learning.png" alt="Master Advanced Analytics with Strategic Depth">
+                <div class="benefit-overlay">
+                  <h4>Master Advanced Analytics with Strategic Depth</h4>
+                  <p>Build strong capabilities in AI, Machine Learning, Big Data, SQL, R, Decision Intelligence, and business strategy—equipping you with both analytical precision and management insight.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="wiifu-item">
+              <div class="benefit-card">
+                <img src="Assets/whats in it for you/IMG professional certification.png" alt="Real-World Application Through Case Studies & Projects">
+                <div class="benefit-overlay">
+                  <h4>Real-World Application Through Case Studies &amp; Projects</h4>
+                  <p>Work on industry-aligned case studies and applied analytics assignments that mirror real organisational challenges, ensuring you graduate with job-ready expertise.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="wiifu-item">
+              <div class="benefit-card">
+                <img src="Assets/whats in it for you/IMG handson fieldwork.png" alt="Learn from Distinguished Faculty with Global Expertise">
+                <div class="benefit-overlay">
+                  <h4>Learn from Distinguished Faculty with Global Expertise</h4>
+                  <p>Experience high-quality instruction from accomplished academics and seasoned practitioners who bring global perspectives, research experience, and deep domain knowledge.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="wiifu-item">
+              <div class="benefit-card">
+                <img src="Assets/whats in it for you/IMG handson fieldwork-1.png" alt="Flexible, Fully Online Format Tailored for Working Professionals">
+                <div class="benefit-overlay">
+                  <h4>Flexible, Fully Online Format Tailored for Working Professionals</h4>
+                  <p>Benefit from an academically robust yet flexible structure that allows seamless learning alongside your professional commitments—without compromising on quality.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="wiifu-item">
+              <div class="benefit-card">
+                <img src="Assets/whats in it for you/IMG handson fieldwork-2.png" alt="Holistic Development for Data-Informed Leadership">
+                <div class="benefit-overlay">
+                  <h4>Holistic Development for Data-Informed Leadership</h4>
+                  <p>Strengthen your analytical thinking, decision-making abilities, strategic mindset, and managerial competence, preparing you for leadership roles across industries.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="wiifu-item">
+              <div class="benefit-card">
+                <img src="Assets/whats in it for you/IMG handson fieldwork-3.png" alt="Career Pathways Across High-Growth Domains">
+                <div class="benefit-overlay">
+                  <h4>Career Pathways Across High-Growth Domains</h4>
+                  <p>Advance your professional trajectory with opportunities in business analytics, consulting, product strategy, digital transformation, operational analytics, and more—supported by a globally respected MBA credential.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <button type="button" class="wiifu-nav wiifu-next" aria-label="Next">&#8250;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     PROGRAMME OVERVIEW
+══════════════════════════════════════════ -->
+  <section class="about-programme-section">
+    <div class="container">
+      <div class="row align-items-start g-5">
+        <div class="col-lg-6 order-1 order-lg-1">
+          <h2 class="about-prog-title">Programme Overview</h2>
+          <p class="about-prog-body">The <strong>MBA in Business Analytics</strong> is a distinguished postgraduate programme designed for ambitious professionals who aspire to lead with precision, insight, and strategic sophistication in an increasingly data-driven world. Seamlessly integrating advanced analytical capability with refined managerial expertise, the programme empowers learners to translate complex data into high-impact business decisions and drive meaningful organisational transformation.</p>
+          <p class="about-prog-body">Developed by the esteemed faculty of the <strong>Jindal Global Business School (JGBS)</strong>—an AACSB-accredited institution recognised among the world's elite business schools—this online MBA offers a comprehensive yet flexible learning experience. With a curriculum that blends conceptual depth, applied analytical training, and real-world problem-solving, the programme equips you with the intellectual confidence and professional credibility required to excel in influential analytics and leadership roles across global industries.</p>
+        </div>
+        <div class="col-lg-6 order-2 order-lg-2">
+          <div class="about-prog-images">
+            <div class="about-images-left-col">
+              <img class="img-campus" src="Assets/Programme Overview/Rectangle 127.png" alt="JGU Campus" />
+              <a href="#enquire" class="about-prog-cta-tile" style="height: auto; flex-direction: row; align-items: center; justify-content: space-between; padding: 16px 24px;">
+                <span class="cta-tile-text" style="font-size: 16px;">Learn More About The Programme</span>
+                <span class="cta-tile-arrow" style="margin-top: 0; font-size: 20px;">&larr;</span>
+              </a>
+            </div>
+            <div class="img-collage-wrap">
+              <img class="img-collage" src="Assets/Programme Overview/Rectangle 129.png" alt="Business analytics dashboard" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     AACSB INTERNATIONAL
+══════════════════════════════════════════ -->
+  <section class="aacsb-section section-global">
+    <div class="container">
+
+      <!-- Sub-section 1: AACSB (white card) -->
+      <div class="aacsb-block">
+        <div class="aacsb-head">
+          <h2 class="aacsb-title">AACSB International Accredited —<br>A Global Benchmark of Excellence</h2>
+          <img class="aacsb-badge-img" src="Assets/AACSB international/aacsb 1.png" alt="Member of AACSB — Association to Advance Collegiate Schools of Business" />
+        </div>
+        <p class="aacsb-body">The MBA in Business Analytics is offered by <strong>Jindal Global Business School (JGBS)</strong>, an institution accredited by <strong>AACSB International</strong>, a distinction held by fewer than 6% of business schools worldwide.</p>
+        <p class="aacsb-body">This accreditation represents the highest global standard in business education, reflecting excellence in curriculum design, academic governance, and industry relevance.</p>
+      </div>
+
+      <!-- Sub-section 2: DASCA (white card) -->
+      <div class="aacsb-block dasca-wrap">
+        <div class="dasca-text">
+          <h3 class="dasca-title"><span class="accent">Trusted Worldwide:</span><br>DASCA Accreditation</h3>
+          <p class="aacsb-body">Our programme is accredited by the <strong>Data Science Council of America (DASCA)</strong>—a globally recognised authority dedicated to advancing standards in data science and analytics education. This accreditation validates the programme's strong alignment with international industry requirements, practical rigor, and future-ready skill development.</p>
+          <p class="aacsb-body">A DASCA-accredited programme equips learners with globally relevant competencies in data science and analytics, enhancing professional credibility and opening doors to high-impact career opportunities worldwide.</p>
+        </div>
+        <div class="dasca-badge">
+          <img src="Assets/AACSB international/DASCA.png" alt="DASCA Accredited" />
+        </div>
+      </div>
+
+      <!-- Sub-section 3: two gradient cards -->
+      <div class="aacsb-cards">
+        <div class="aacsb-card aacsb-card--apart">
+          <h3>Why this sets your MBA apart?</h3>
+          <ul class="aacsb-card-list">
+            <li><img src="Assets/AACSB international/Layer_1-1.svg" alt="">Signals international credibility and academic distinction</li>
+            <li><img src="Assets/AACSB international/Frame.svg" alt="">Ensures learning is aligned with global business and analytics standards</li>
+            <li><img src="Assets/AACSB international/Layer_1.svg" alt="">Reinforces long-term employability and leadership readiness</li>
+            <li><img src="Assets/AACSB international/Layer_29.svg" alt="">Recognised by employers, institutions, and recruiters worldwide</li>
+          </ul>
+        </div>
+        <div class="aacsb-card aacsb-card--career">
+          <h3>What it means for your career?</h3>
+          <p>This is not just an MBA for today's roles.</p>
+          <p>It is a qualification designed to <strong>stand out globally</strong>, remain future-relevant, and support career growth across industries, functions, and geographies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     FEES STRUCTURE / ELIGIBILITY TABS
+══════════════════════════════════════════ -->
+  <section class="eligibility-section bg-fees" id="eligibility">
+    <div class="elig-bg"></div>
+    <div class="elig-overlay"></div>
+
+    <div class="elig-wrap">
+      <!-- Tabs -->
+      <ul class="nav elig-tabs" id="eligTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-fees" type="button">Fees Structure</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-elig" type="button">Eligibility</button>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+
+        <!-- Tab 1: Fees Structure -->
+        <div class="tab-pane fade show active" id="tab-fees" role="tabpanel">
+          <div class="elig-tab-inner">
+            <table class="fee-table">
+              <thead>
+                <tr>
+                  <th>Fee Category</th>
+                  <th>Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Registration Amount</td>
+                  <td>INR 25,000</td>
+                </tr>
+                <tr>
+                  <td>1st Installment</td>
+                  <td>INR 75,000</td>
+                </tr>
+                <tr>
+                  <td>2nd Installment</td>
+                  <td>INR 1,00,000</td>
+                </tr>
+                <tr>
+                  <td>Total Tuition Fee</td>
+                  <td>INR 2,00,000</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="elig-para" style="margin-top:22px;font-size:15px;">EMI options (India only) are available through Jodo with a quick, fully digital approval process. International students are billed in local currency at the time of payment.</p>
+          </div>
+        </div>
+
+        <!-- Tab 2: Eligibility -->
+        <div class="tab-pane fade" id="tab-elig" role="tabpanel">
+          <div class="elig-tab-inner">
+            <table class="fee-table">
+              <thead>
+                <tr>
+                  <th style="width: 26%;">Category</th>
+                  <th style="width: 74%;">Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Educational Requirement</td>
+                  <td>A bachelor's degree from a recognised university (India or abroad) with a minimum of 50% marks.</td>
+                </tr>
+                <tr>
+                  <td>Application Submission</td>
+                  <td>Apply online through the official MBA application portal and upload all required documents.</td>
+                </tr>
+                <tr>
+                  <td>Documents Required</td>
+                  <td>&bull; Academic transcripts &amp; proof of graduation<br>&bull; Statement of Purpose (SOP)<br>&bull; Identity proof (if applicable)</td>
+                </tr>
+                <tr>
+                  <td>Assessment Process</td>
+                  <td>Applications are evaluated through a comprehensive review of academic background, quality of SOP, and overall preparedness for the programme.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     INDUSTRY TOOLS YOU WILL MASTER
+══════════════════════════════════════════ -->
+  <section class="tools-section section-global">
+    <div class="container">
+      <div class="tools-card">
+        <div class="tools-tabs" role="tablist">
+          <button type="button" class="tools-tab active" data-tools-tab="tab-tools">Industry Tools You Will Master</button>
+          <button type="button" class="tools-tab" data-tools-tab="tab-certs">Industry Certifications Recognised</button>
+        </div>
+
+        <!-- Panel 1: Tools -->
+        <div class="tools-panel active" id="tab-tools">
+          <div class="tools-carousel">
+            <button type="button" class="tools-nav tools-prev" aria-label="Previous">&#9664;</button>
+            <button type="button" class="tools-nav tools-next" aria-label="Next">&#9654;</button>
+            <div class="tools-cards">
+              <div class="tool-card">
+                <img src="Assets/Industry tools you will master/Group 114.png" alt="R Studio">
+                <p>Foundations of Business Analytics, Advanced Analytics, Time Series Analysis, and Prescriptive Modelling</p>
+              </div>
+              <div class="tool-card">
+                <img src="Assets/Industry tools you will master/Group 115.png" alt="Tableau">
+                <p>Data Visualisation and Dashboard Design for Strategic Insights</p>
+              </div>
+              <div class="tool-card">
+                <img src="Assets/Industry tools you will master/Group 116.png" alt="Python">
+                <p>Machine Learning, Predictive Modelling, and Big Data Processing</p>
+              </div>
+              <div class="tool-card">
+                <img src="Assets/Industry tools you will master/Group 117.png" alt="SQL">
+                <p>Database Management, Querying, and Data Handling</p>
+              </div>
+              <div class="tool-card">
+                <img src="Assets/Industry tools you will master/Group 118.png" alt="SPSS">
+                <p>Predictive Analytics, Forecasting, and Statistical Modelling</p>
+              </div>
+              <div class="tool-card">
+                <img src="Assets/Industry tools you will master/Group 119.png" alt="MS Excel">
+                <p>Business Decision Modelling, Spreadsheet Analytics, and Quantitative Methods</p>
+              </div>
+            </div>
+          </div>
+          <p class="tools-footnote">These tools form the backbone of modern data-driven roles and equip you with job-ready analytical confidence.</p>
+        </div>
+
+        <!-- Panel 2: Certifications -->
+        <div class="tools-panel" id="tab-certs">
+          <p class="certs-intro">Learners who have completed ANY of the following globally recognised professional certificates may earn up to <strong>12 programme credits</strong>, accelerating their academic journey:</p>
+          <ul class="certs-list">
+            <li>Google Data Analytics Professional Certificate</li>
+            <li>IBM Data Analyst Professional Certificate</li>
+            <li>IBM Data Science Professional Certificate</li>
+            <li>Fractal Data Science Professional Certificate</li>
+          </ul>
+          <p class="certs-outro">This recognition ensures that your prior learning—and industry-backed certifications—contribute directly to your MBA, giving you a stronger foundation and a faster pathway to completion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     NEED TO KNOW MORE
+══════════════════════════════════════════ -->
+  <section class="ntk-section section-global" style="background: transparent; padding: 70px 0;">
+    <div class="container" style="max-width: 1180px;">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h2 style="font-family: 'Montserrat', sans-serif; font-size: clamp(32px, 4.6vw, 62px); font-weight: 800; line-height: 1.1; margin-bottom: 24px; background: linear-gradient(90deg, #0D1B73 0%, #6A0DAD 28%, #6A0DAD 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;">Need to know more?</h2>
+          <p class="about-prog-body">Explore the <strong>MBA in Business Analytics</strong> in detail by downloading the full course brochure. Get comprehensive insights on curriculum, faculty, learning outcomes, and career pathways.</p>
+          <a href="#enquire" class="btn-brochure">Download Brochure</a>
+        </div>
+        <div class="col-lg-6">
+          <img class="ntk-img" src="Assets/need to know more/img brochure (2).png" alt="MBA in Business Analytics — programme brochure preview">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     HOW DOES JGU STAND APART
+══════════════════════════════════════════ -->
+  <section class="compare-section section-global">
+    <div class="compare-card">
+      <h2 class="compare-title"><span class="grad">How Does the</span> MBA in Business Analytics <span class="grad">at JGU Stand Apart?</span></h2>
+      <div class="table-responsive">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>JGU – MBA in Business Analytics</th>
+              <th>Regular MBA in Business Analytics (Other Universities)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Global Accreditation</td>
+              <td>AACSB-Accredited Business School (Top 6% globally)</td>
+              <td>Most programmes are not AACSB accredited</td>
+            </tr>
+            <tr>
+              <td>Faculty Quality</td>
+              <td>Taught by distinguished academics + industry experts</td>
+              <td>Often limited industry integration; general faculty</td>
+            </tr>
+            <tr>
+              <td>Curriculum Structure</td>
+              <td>Balanced Business Management + Advanced Analytics</td>
+              <td>Often analytics-heavy or management-heavy; not integrated</td>
+            </tr>
+            <tr>
+              <td>Industry Tools Covered</td>
+              <td>R, Python, SQL, Tableau, SPSS, Excel (hands-on)</td>
+              <td>Basic exposure; limited real-world tool training</td>
+            </tr>
+            <tr>
+              <td>Professional Certifications</td>
+              <td>Up to 12 credits recognised for Google/IBM/Fractal certificates</td>
+              <td>Rarely recognise external certifications</td>
+            </tr>
+            <tr>
+              <td>Learning Format</td>
+              <td>100% Online, flexible 12–24 months</td>
+              <td>Mostly rigid schedules with limited flexibility</td>
+            </tr>
+            <tr>
+              <td>Academic Rigor</td>
+              <td>Research-driven with strong quantitative depth</td>
+              <td>Varies widely; often not research-intensive</td>
+            </tr>
+            <tr>
+              <td>Practical Exposure</td>
+              <td>Case studies, modelling, forecasting, decision simulations</td>
+              <td>Often theory-heavy with limited applied learning</td>
+            </tr>
+            <tr>
+              <td>Career Preparation</td>
+              <td>Designed for strategy, analytics, consulting, product roles</td>
+              <td>Typically narrower focus on data analyst roles</td>
+            </tr>
+            <tr>
+              <td>University Standing</td>
+              <td>India's No.1 Private University (QS Rankings)</td>
+              <td>Usually do not hold comparable global rankings</td>
+            </tr>
+            <tr>
+              <td>Credit Load</td>
+              <td>72-credit comprehensive postgraduate degree</td>
+              <td>Lower credit intensity (40–60 credits typically)</td>
+            </tr>
+            <tr>
+              <td>Value for Learners</td>
+              <td>Strong industry relevance + global credibility at accessible fee</td>
+              <td>Higher fee structures with fewer value additions</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     CAREER OUTCOMES
+══════════════════════════════════════════ -->
+  <section class="career-section-container section-global">
+    <div class="container">
+      <div class="career-card-wrapper">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-4 text-white mb-4 mb-lg-0">
+            <h2 class="career-main-title">
+              <span class="career-highlight">Career<br>Outcomes</span><br>
+              of MBA in<br>Business<br>Analytics<br>from JGU
+            </h2>
+          </div>
+          <div class="col-lg-8 h-100">
+            <div class="career-scroll-container">
+              <div class="career-grid-new">
+
+                <div class="career-card-new">
+                  <div class="career-card-header">
+                    <img src="Assets/Career outcomes/ICONS/Layer_1.svg" alt="Business Analyst / Data Analyst" class="career-card-icon">
+                    <h4 class="career-card-title">Business Analyst /<br>Data Analyst</h4>
+                  </div>
+                  <p class="career-card-desc">Interpret and transform complex business data into actionable insights to improve processes, products, and decision-making.</p>
+                </div>
+
+                <div class="career-card-new">
+                  <div class="career-card-header">
+                    <img src="Assets/Career outcomes/ICONS/Layer_1-1.svg" alt="Marketing / Customer Insights Analyst" class="career-card-icon">
+                    <h4 class="career-card-title">Marketing / Customer<br>Insights Analyst</h4>
+                  </div>
+                  <p class="career-card-desc">Use analytical models to understand customer behaviour, optimize campaigns, and drive data-backed marketing strategies.</p>
+                </div>
+
+                <div class="career-card-new">
+                  <div class="career-card-header">
+                    <img src="Assets/Career outcomes/ICONS/Layer_1-2.svg" alt="Financial Analytics Specialist" class="career-card-icon">
+                    <h4 class="career-card-title">Financial Analytics<br>Specialist</h4>
+                  </div>
+                  <p class="career-card-desc">Apply predictive modelling, forecasting, and quantitative tools to evaluate financial performance and support investment decisions.</p>
+                </div>
+
+                <div class="career-card-new">
+                  <div class="career-card-header">
+                    <img src="Assets/Career outcomes/ICONS/Layer_1-3.svg" alt="Operations & Supply Chain Analyst" class="career-card-icon">
+                    <h4 class="career-card-title">Operations &amp; Supply<br>Chain Analyst</h4>
+                  </div>
+                  <p class="career-card-desc">Analyse operational data, improve supply chain efficiency, and streamline workflows across business functions.</p>
+                </div>
+
+                <div class="career-card-new">
+                  <div class="career-card-header">
+                    <img src="Assets/Career outcomes/ICONS/Layer_1-4.svg" alt="Business Intelligence Specialist" class="career-card-icon">
+                    <h4 class="career-card-title">Business Intelligence<br>(BI) Specialist</h4>
+                  </div>
+                  <p class="career-card-desc">Develop interactive dashboards, automate reporting systems, and enable real-time decision support using BI tools.</p>
+                </div>
+
+                <div class="career-card-new">
+                  <div class="career-card-header">
+                    <img src="Assets/Career outcomes/ICONS/Layer_1-5.svg" alt="Product Analyst / Digital Strategy Analyst" class="career-card-icon">
+                    <h4 class="career-card-title">Product / Digital<br>Strategy Analyst</h4>
+                  </div>
+                  <p class="career-card-desc">Leverage analytics to enhance product performance, guide digital initiatives, and support user-focused decision-making.</p>
+                </div>
+
+                <div class="career-card-new">
+                  <div class="career-card-header">
+                    <img src="Assets/Career outcomes/ICONS/Layer_1-6.svg" alt="Analytics Consultant / Strategy Consultant" class="career-card-icon">
+                    <h4 class="career-card-title">Analytics / Strategy<br>Consultant</h4>
+                  </div>
+                  <p class="career-card-desc">Provide data-driven recommendations to organisations, solving business challenges through analytical frameworks and strategic insights.</p>
+                </div>
+
+                <div class="career-card-new">
+                  <div class="career-card-header">
+                    <img src="Assets/Career outcomes/ICONS/bold_1_.svg" alt="Leadership Roles in Analytics & Business Strategy" class="career-card-icon">
+                    <h4 class="career-card-title">Leadership in Analytics<br>&amp; Business Strategy</h4>
+                  </div>
+                  <p class="career-card-desc">Progress into roles such as Analytics Manager, Strategy Lead, or Business Transformation Manager in consulting firms, tech companies, and global enterprises.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     MEET OUR FACULTY
+══════════════════════════════════════════ -->
+  <section class="faculty-section section-global">
+    <div class="container">
+      <h2 class="faculty-title">Meet our <span class="text-gradient">Faculty</span></h2>
+      <div class="faculty-carousel">
+        <button type="button" class="faculty-nav faculty-prev" aria-label="Previous">&#8249;</button>
+        <button type="button" class="faculty-nav faculty-next" aria-label="Next">&#8250;</button>
+        <div class="faculty-row">
+        <figure class="faculty-card">
+          <img src="Assets/faculty/Group 40.png" alt="Prof. (Dr.) Anand Sharma">
+          <figcaption>
+            <strong>Prof. (Dr.)<br>Anand Sharma</strong>
+            <span>Associate Professor</span>
+          </figcaption>
+        </figure>
+        <figure class="faculty-card">
+          <img src="Assets/faculty/Group 41.png" alt="Prof. (Dr.) Anshu Sharma">
+          <figcaption>
+            <strong>Prof. (Dr.)<br>Anshu Sharma</strong>
+            <span>Associate Professor &amp; Assistant Dean</span>
+          </figcaption>
+        </figure>
+        <figure class="faculty-card">
+          <img src="Assets/faculty/Group 42.png" alt="Prof. (Dr.) Manisha Mishra">
+          <figcaption>
+            <strong>Prof. (Dr.)<br>Manisha Mishra</strong>
+            <span>Associate Professor &amp; Assistant Dean</span>
+          </figcaption>
+        </figure>
+        <figure class="faculty-card">
+          <img src="Assets/faculty/Group 43.png" alt="Prof. (Dr.) Anirban Ganguly">
+          <figcaption>
+            <strong>Prof. (Dr.)<br>Anirban Ganguly</strong>
+            <span>Professor &amp; Vice Dean</span>
+          </figcaption>
+        </figure>
+        <figure class="faculty-card">
+          <img src="Assets/faculty/Group 44.png" alt="Prof. (Dr.) Chitrakalpa Sen">
+          <figcaption>
+            <strong>Prof. (Dr.)<br>Chitrakalpa Sen</strong>
+            <span>Professor &amp; Associate Dean</span>
+          </figcaption>
+        </figure>
+        <figure class="faculty-card">
+          <img src="Assets/faculty/Group 111.png" alt="Prof. (Dr.) Sumedha Chauhan">
+          <figcaption>
+            <strong>Prof. (Dr.)<br>Sumedha Chauhan</strong>
+            <span>Professor</span>
+          </figcaption>
+        </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     RECOGNITIONS
+══════════════════════════════════════════ -->
+  <section class="recognitions-section section-global">
+    <div class="recognitions-body">
+      <div class="recognitions-overlay"></div>
+      <h2 class="recognitions-title text-gradient">Recognitions and Accreditations</h2>
+      <div class="recognitions-inner">
+        <div class="recognitions-badges">
+          <div class="rec-badge"><img src="Assets/Recognitions/2.png" alt="Top 150 Under 50 Globally – QS Young University Rankings 2022"></div>
+          <div class="rec-badge rec-badge-large"><img src="Assets/Recognitions/1.png" alt="Institution of Eminence – Ministry of Education, Government of India"></div>
+          <div class="rec-badge rec-badge-center"><img src="Assets/Recognitions/3.png" alt="JGU Makes History in Global Rankings – India's No.1 Ranked University"></div>
+          <div class="rec-badge rec-badge-large"><img src="Assets/Recognitions/4.png" alt="Ranked No.1 Private University in India – QS World University Rankings"></div>
+          <div class="rec-badge"><img src="Assets/Recognitions/5.png" alt="Ranked No.1 Globally for Online Learning – THE 2024"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════ -->
+  <section class="faq-section section-global py-5" id="faq">
+    <div class="container">
+      <h2 class="faq-main-title text-center mb-5">Frequently Asked Questions <span class="text-gradient">(FAQs)</span>
+      </h2>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="accordion" id="faqLeft">
+
+            <div class="accordion-item faq-item">
+              <h2 class="accordion-header m-0">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1" aria-expanded="true">
+                  Who is eligible to apply for this programme?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqLeft">
+                <div class="accordion-body">Applicants must have a bachelor's degree from a recognised university with a minimum of 50% marks. Work experience is preferred but not mandatory.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item faq-item">
+              <h2 class="accordion-header m-0">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+                  Does JGU recognise external professional certifications?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqLeft">
+                <div class="accordion-body">Yes. Learners who have completed certifications such as Google Data Analytics, IBM Data Analyst, IBM Data Science, or Fractal Data Science may receive up to 12 academic credits, accelerating their MBA progress.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item faq-item">
+              <h2 class="accordion-header m-0">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+                  What makes JGU's MBA in Business Analytics unique?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqLeft">
+                <div class="accordion-body">It is delivered by an AACSB-accredited business school (top 6% globally), with a balanced curriculum across management and analytics, and recognition of industry-certified learning.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="accordion" id="faqRight">
+
+            <div class="accordion-item faq-item">
+              <h2 class="accordion-header m-0">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq4">
+                  What tools will I learn during the programme?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+                <div class="accordion-body">You will gain hands-on experience with R, Python, SQL, Tableau, SPSS, and MS Excel — the backbone of modern data-driven roles.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item faq-item">
+              <h2 class="accordion-header m-0">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq5">
+                  Is the programme fully online and flexible?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+                <div class="accordion-body">Yes. It is a 100% online, self-paced programme with live components, designed to fit alongside your professional commitments (estimated 14–16 hours per week).</div>
+              </div>
+            </div>
+
+            <div class="accordion-item faq-item">
+              <h2 class="accordion-header m-0">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq6">
+                  Is financial assistance or EMI available?
+                </button>
+              </h2>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+                <div class="accordion-body">Yes. EMI options are available in India through Jodo with a quick, fully digital approval process. International students are billed in local currency at the time of payment.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     ENQUIRE NOW
+══════════════════════════════════════════ -->
+  <section class="enquire-section section-global py-5" id="enquire">
+    <div class="container">
+      <h2 class="enquire-section-title text-gradient text-center">Enquire Now!</h2>
+      <div class="enquire-form-container mx-auto">
+        <div class="row align-items-stretch g-0">
+
+          <!-- Form -->
+          <div class="col-lg-6 col-md-12 enquire-form-left">
+            <div class="npf_wgts" data-height="400px" data-w="b5d5c72ac57446a628c59b0daa12b068"></div>
+          </div>
+
+          <!-- Info -->
+          <div class="col-lg-6 col-md-12 enquire-form-right d-flex flex-column justify-content-center">
+            <h2 class="enquire-info-title">Let's connect and shape your path at JGU!</h2>
+            <p class="enquire-info-sub">Reach out to know more about programmes, admissions, and opportunities.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+  <footer class="py-4">
+    <p class="text-center fw-bold mb-0">&copy; 2026 O.P. Jindal Global University. All Rights Reserved</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+
+      /* ── PROGRAMME HIGHLIGHTS SLIDER ── */
+      const track = $('.slider-track');
+      const items = $('.slider-item');
+      let current = 0;
+
+      function getVisible() {
+        if (window.innerWidth < 576) return 1;
+        if (window.innerWidth < 768) return 1;
+        if (window.innerWidth < 1024) return 2;
+        return 3;
+      }
+
+      function updateSlider() {
+        const visibleCount = getVisible();
+        const wrapperWidth = $('.slider-wrapper').width();
+        const itemWidth = wrapperWidth / visibleCount;
+        items.css({ 'min-width': itemWidth + 'px', 'max-width': itemWidth + 'px', 'width': itemWidth + 'px' });
+        track.css('transform', 'translateX(-' + (current * itemWidth) + 'px)');
+      }
+
+      $('.right-btn').on('click', function () {
+        const visibleCount = getVisible();
+        if (current < items.length - visibleCount) { current++; updateSlider(); }
+      });
+
+      $('.left-btn').on('click', function () {
+        if (current > 0) { current--; updateSlider(); }
+      });
+
+      $(window).on('resize', function () { current = 0; updateSlider(); updateFaculty(); updateTest(); updateRecognitions(); });
+      updateSlider();
+
+      /* ── WHAT'S IN IT FOR YOU CAROUSEL ── */
+      (function () {
+        const $wTrack = $('.wiifu-track');
+        if (!$wTrack.length) return;
+        const $wItems = $wTrack.children('.wiifu-item');
+        const $wViewport = $('.wiifu-viewport');
+        const $wPrev = $('.wiifu-prev');
+        const $wNext = $('.wiifu-next');
+        const GAP = 24;
+        let wIdx = 0;
+
+        function wVisible() {
+          const w = window.innerWidth;
+          if (w < 576) return 1;
+          if (w < 992) return 2;
+          return 3;
+        }
+
+        function wLayout() {
+          const vis = wVisible();
+          const vw = $wViewport.width();
+          const itemW = (vw - GAP * (vis - 1)) / vis;
+          $wItems.css('width', itemW + 'px');
+          const maxIdx = Math.max(0, $wItems.length - vis);
+          if (wIdx > maxIdx) wIdx = maxIdx;
+          $wTrack.css('transform', 'translateX(-' + (wIdx * (itemW + GAP)) + 'px)');
+          $wPrev.prop('disabled', wIdx === 0);
+          $wNext.prop('disabled', wIdx >= maxIdx);
+        }
+
+        $wNext.on('click', function () {
+          const maxIdx = Math.max(0, $wItems.length - wVisible());
+          if (wIdx < maxIdx) { wIdx++; wLayout(); }
+        });
+        $wPrev.on('click', function () {
+          if (wIdx > 0) { wIdx--; wLayout(); }
+        });
+        $(window).on('resize', wLayout);
+        wLayout();
+      })();
+
+      /* ── RECOGNITIONS CAROUSEL FOR MOBILE ── */
+      const $reconBadge = $('.recognitions-badges');
+      function updateRecognitions() {
+        if (window.innerWidth <= 768) {
+          if (!$reconBadge.hasClass('owl-carousel')) {
+            $reconBadge.addClass('owl-carousel owl-theme').owlCarousel({
+              items: 1,
+              margin: 20,
+              loop: true,
+              nav: false,
+              dots: true,
+              autoplay: true,
+              autoplayTimeout: 3500
+            });
+          }
+        } else {
+          if ($reconBadge.hasClass('owl-carousel')) {
+            $reconBadge.trigger('destroy.owl.carousel').removeClass('owl-carousel owl-theme');
+          }
+        }
+      }
+      updateRecognitions();
+
+      /* ── FACULTY CAROUSEL ── */
+      const facultyGrid = document.querySelector('.faculty-grid');
+      const facultyCards = document.querySelectorAll('.faculty-card');
+      const prevBtn = document.querySelector('.faculty-prev-btn');
+      const nextBtn = document.querySelector('.faculty-next-btn');
+      let fIdx = 0;
+
+      function updateFaculty() {
+        if (!facultyGrid || !facultyCards.length) return;
+        const gap = parseFloat(window.getComputedStyle(facultyGrid).gap) || 0;
+        const w = facultyCards[0].offsetWidth + gap;
+        facultyGrid.style.transform = 'translateX(-' + (fIdx * w) + 'px)';
+      }
+
+      if (prevBtn) {
+        prevBtn.addEventListener('click', () => { if (fIdx > 0) { fIdx--; updateFaculty(); } });
+      }
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          if (!facultyGrid) return;
+          const gap = parseFloat(window.getComputedStyle(facultyGrid).gap) || 0;
+          const w = facultyCards[0].offsetWidth + gap;
+          const visible = Math.floor(facultyGrid.parentElement.offsetWidth / w) || 1;
+          const maxIdx = Math.max(0, facultyCards.length - visible);
+          if (fIdx < maxIdx) { fIdx++; updateFaculty(); }
+        });
+      }
+      updateFaculty();
+
+      /* ── TESTIMONIALS SLIDER ── */
+      const testGrid = document.querySelector('.test-grid');
+      const testCards = document.querySelectorAll('.test-card');
+      let tIdx = 0;
+
+      function updateTest() {
+        if (!testGrid || !testCards.length) return;
+        const gap = parseFloat(window.getComputedStyle(testGrid).gap) || 0;
+        const w = testCards[0].offsetWidth + gap;
+        testGrid.style.transform = 'translateX(-' + (tIdx * w) + 'px)';
+      }
+
+      document.getElementById('testPrev')?.addEventListener('click', () => {
+        if (tIdx > 0) { tIdx--; updateTest(); }
+      });
+
+      document.getElementById('testNext')?.addEventListener('click', () => {
+        if (!testGrid) return;
+        const gap = parseFloat(window.getComputedStyle(testGrid).gap) || 0;
+        const w = testCards[0].offsetWidth + gap;
+        const sliderWrap = document.querySelector('.sc-slider-wrap');
+        const visible = Math.floor((sliderWrap ? sliderWrap.offsetWidth : testGrid.parentElement.offsetWidth) / w) || 1;
+        const maxIdx = Math.max(0, testCards.length - visible);
+        if (tIdx < maxIdx) { tIdx++; updateTest(); }
+      });
+
+      updateTest();
+
+      /* ── VIDEO BOX ── */
+      const videoBox = document.querySelector('.video-box[data-youtube]');
+      if (videoBox) {
+        videoBox.addEventListener('click', function () {
+          const url = this.getAttribute('data-youtube');
+          if (url && url.indexOf('REPLACE_VIDEO_ID') === -1) {
+            window.open(url, '_blank');
+          }
+        });
+      }
+
+      /* ── DYNAMIC BACKGROUND SWAP FOR ELIGIBILITY SECTION ── */
+      $('#eligTabs button').on('shown.bs.tab', function (e) {
+        const targetId = $(e.target).attr('data-bs-target');
+        const $sec = $('.eligibility-section');
+        $sec.removeClass('bg-eligibility bg-fees bg-payment');
+        if (targetId === '#tab-elig') {
+          $sec.addClass('bg-eligibility');
+        } else if (targetId === '#tab-fees') {
+          $sec.addClass('bg-fees');
+        } else if (targetId === '#tab-payment') {
+          $sec.addClass('bg-payment');
+        }
+      });
+
+/* ── WHO IS THIS PROGRAMME FOR — drag-to-scroll carousel ── */
+      (function () {
+        const slider = document.querySelector('.who-cards');
+        if (!slider) return;
+        let isDown = false, startX = 0, startScroll = 0, moved = false;
+
+        slider.addEventListener('mousedown', function (e) {
+          isDown = true; moved = false;
+          slider.classList.add('dragging');
+          startX = e.pageX;
+          startScroll = slider.scrollLeft;
+        });
+        window.addEventListener('mouseup', function () {
+          isDown = false;
+          slider.classList.remove('dragging');
+        });
+        slider.addEventListener('mousemove', function (e) {
+          if (!isDown) return;
+          e.preventDefault();
+          const walk = e.pageX - startX;
+          if (Math.abs(walk) > 4) moved = true;
+          slider.scrollLeft = startScroll - walk;
+        });
+        /* Prevent the card link/hover from firing after a drag */
+        slider.addEventListener('click', function (e) {
+          if (moved) { e.preventDefault(); e.stopPropagation(); }
+        }, true);
+
+        /* Prev/Next nav buttons */
+        const prevBtn = document.querySelector('.who-prev');
+        const nextBtn = document.querySelector('.who-next');
+        function getStep() {
+          const card = slider.querySelector('.who-card2');
+          if (!card) return 260;
+          const gap = parseFloat(window.getComputedStyle(slider).gap) || 0;
+          return card.offsetWidth + gap;
+        }
+        function updateWhoNavs() {
+          if (!prevBtn || !nextBtn) return;
+          prevBtn.disabled = slider.scrollLeft <= 2;
+          nextBtn.disabled = slider.scrollLeft >= (slider.scrollWidth - slider.clientWidth - 2);
+        }
+        if (prevBtn) prevBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: -getStep(), behavior: 'smooth' });
+        });
+        if (nextBtn) nextBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: getStep(), behavior: 'smooth' });
+        });
+        slider.addEventListener('scroll', updateWhoNavs);
+        window.addEventListener('resize', updateWhoNavs);
+        updateWhoNavs();
+      })();
+
+      /* ── CAREER PATHWAYS — drag-to-scroll carousel ── */
+      (function () {
+        const slider = document.querySelector('.career-cards');
+        if (!slider) return;
+        let isDown = false, startX = 0, startScroll = 0, moved = false;
+
+        slider.addEventListener('mousedown', function (e) {
+          isDown = true; moved = false;
+          slider.classList.add('dragging');
+          startX = e.pageX;
+          startScroll = slider.scrollLeft;
+        });
+        window.addEventListener('mouseup', function () {
+          isDown = false;
+          slider.classList.remove('dragging');
+        });
+        slider.addEventListener('mousemove', function (e) {
+          if (!isDown) return;
+          e.preventDefault();
+          const walk = e.pageX - startX;
+          if (Math.abs(walk) > 4) moved = true;
+          slider.scrollLeft = startScroll - walk;
+        });
+        slider.addEventListener('click', function (e) {
+          if (moved) { e.preventDefault(); e.stopPropagation(); }
+        }, true);
+
+        const prevBtn = document.querySelector('.career-prev');
+        const nextBtn = document.querySelector('.career-next');
+        function getStep() {
+          const card = slider.querySelector('.pathway-card');
+          if (!card) return 246;
+          const gap = parseFloat(window.getComputedStyle(slider).gap) || 0;
+          return card.offsetWidth + gap;
+        }
+        function updateCareerNavs() {
+          if (!prevBtn || !nextBtn) return;
+          prevBtn.disabled = slider.scrollLeft <= 2;
+          nextBtn.disabled = slider.scrollLeft >= (slider.scrollWidth - slider.clientWidth - 2);
+        }
+        if (prevBtn) prevBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: -getStep(), behavior: 'smooth' });
+        });
+        if (nextBtn) nextBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: getStep(), behavior: 'smooth' });
+        });
+        slider.addEventListener('scroll', updateCareerNavs);
+        window.addEventListener('resize', updateCareerNavs);
+        updateCareerNavs();
+      })();
+
+      /* ── FACULTY — drag-to-scroll carousel ── */
+      (function () {
+        const slider = document.querySelector('.faculty-row');
+        if (!slider) return;
+        let isDown = false, startX = 0, startScroll = 0, moved = false;
+
+        slider.addEventListener('mousedown', function (e) {
+          isDown = true; moved = false;
+          slider.classList.add('dragging');
+          startX = e.pageX;
+          startScroll = slider.scrollLeft;
+        });
+        window.addEventListener('mouseup', function () {
+          isDown = false;
+          slider.classList.remove('dragging');
+        });
+        slider.addEventListener('mousemove', function (e) {
+          if (!isDown) return;
+          e.preventDefault();
+          const walk = e.pageX - startX;
+          if (Math.abs(walk) > 4) moved = true;
+          slider.scrollLeft = startScroll - walk;
+        });
+        slider.addEventListener('click', function (e) {
+          if (moved) { e.preventDefault(); e.stopPropagation(); }
+        }, true);
+
+        const prevBtn = document.querySelector('.faculty-prev');
+        const nextBtn = document.querySelector('.faculty-next');
+        function getStep() {
+          const card = slider.querySelector('.faculty-card');
+          if (!card) return 260;
+          const gap = parseFloat(window.getComputedStyle(slider).gap) || 0;
+          return card.offsetWidth + gap;
+        }
+        function updateFacultyNavs() {
+          if (!prevBtn || !nextBtn) return;
+          prevBtn.disabled = slider.scrollLeft <= 2;
+          nextBtn.disabled = slider.scrollLeft >= (slider.scrollWidth - slider.clientWidth - 2);
+        }
+        if (prevBtn) prevBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: -getStep(), behavior: 'smooth' });
+        });
+        if (nextBtn) nextBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: getStep(), behavior: 'smooth' });
+        });
+        slider.addEventListener('scroll', updateFacultyNavs);
+        window.addEventListener('resize', updateFacultyNavs);
+        updateFacultyNavs();
+      })();
+
+      /* ── INDUSTRY TOOLS — tabs ── */
+      (function () {
+        const tabs = document.querySelectorAll('.tools-tab');
+        if (!tabs.length) return;
+        tabs.forEach(function (tab) {
+          tab.addEventListener('click', function () {
+            const target = tab.getAttribute('data-tools-tab');
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            document.querySelectorAll('.tools-panel').forEach(function (p) {
+              p.classList.toggle('active', p.id === target);
+            });
+            window.dispatchEvent(new Event('resize'));
+          });
+        });
+      })();
+
+      /* ── INDUSTRY TOOLS — drag-to-scroll carousel ── */
+      (function () {
+        const slider = document.querySelector('.tools-cards');
+        if (!slider) return;
+        let isDown = false, startX = 0, startScroll = 0, moved = false;
+
+        slider.addEventListener('mousedown', function (e) {
+          isDown = true; moved = false;
+          slider.classList.add('dragging');
+          startX = e.pageX;
+          startScroll = slider.scrollLeft;
+        });
+        window.addEventListener('mouseup', function () {
+          isDown = false;
+          slider.classList.remove('dragging');
+        });
+        slider.addEventListener('mousemove', function (e) {
+          if (!isDown) return;
+          e.preventDefault();
+          const walk = e.pageX - startX;
+          if (Math.abs(walk) > 4) moved = true;
+          slider.scrollLeft = startScroll - walk;
+        });
+        slider.addEventListener('click', function (e) {
+          if (moved) { e.preventDefault(); e.stopPropagation(); }
+        }, true);
+
+        const prevBtn = document.querySelector('.tools-prev');
+        const nextBtn = document.querySelector('.tools-next');
+        function getStep() {
+          const card = slider.querySelector('.tool-card');
+          if (!card) return 200;
+          const gap = parseFloat(window.getComputedStyle(slider).gap) || 0;
+          return card.offsetWidth + gap;
+        }
+        function updateToolsNavs() {
+          if (!prevBtn || !nextBtn) return;
+          prevBtn.disabled = slider.scrollLeft <= 2;
+          nextBtn.disabled = slider.scrollLeft >= (slider.scrollWidth - slider.clientWidth - 2);
+        }
+        if (prevBtn) prevBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: -getStep(), behavior: 'smooth' });
+        });
+        if (nextBtn) nextBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: getStep(), behavior: 'smooth' });
+        });
+        slider.addEventListener('scroll', updateToolsNavs);
+        window.addEventListener('resize', updateToolsNavs);
+        updateToolsNavs();
+      })();
+
+      /* ── CAREER OUTCOMES — drag-to-scroll carousel ── */
+      (function () {
+        const slider = document.querySelector('.outcomes-cards');
+        if (!slider) return;
+        let isDown = false, startX = 0, startScroll = 0, moved = false;
+
+        slider.addEventListener('mousedown', function (e) {
+          isDown = true; moved = false;
+          slider.classList.add('dragging');
+          startX = e.pageX;
+          startScroll = slider.scrollLeft;
+        });
+        window.addEventListener('mouseup', function () {
+          isDown = false;
+          slider.classList.remove('dragging');
+        });
+        slider.addEventListener('mousemove', function (e) {
+          if (!isDown) return;
+          e.preventDefault();
+          const walk = e.pageX - startX;
+          if (Math.abs(walk) > 4) moved = true;
+          slider.scrollLeft = startScroll - walk;
+        });
+        slider.addEventListener('click', function (e) {
+          if (moved) { e.preventDefault(); e.stopPropagation(); }
+        }, true);
+
+        const prevBtn = document.querySelector('.outcomes-prev');
+        const nextBtn = document.querySelector('.outcomes-next');
+        function getStep() {
+          const card = slider.querySelector('.outcome-card');
+          if (!card) return 300;
+          const gap = parseFloat(window.getComputedStyle(slider).gap) || 0;
+          return card.offsetWidth + gap;
+        }
+        function updateOutcomesNavs() {
+          if (!prevBtn || !nextBtn) return;
+          prevBtn.disabled = slider.scrollLeft <= 2;
+          nextBtn.disabled = slider.scrollLeft >= (slider.scrollWidth - slider.clientWidth - 2);
+        }
+        if (prevBtn) prevBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: -getStep(), behavior: 'smooth' });
+        });
+        if (nextBtn) nextBtn.addEventListener('click', function () {
+          slider.scrollBy({ left: getStep(), behavior: 'smooth' });
+        });
+        slider.addEventListener('scroll', updateOutcomesNavs);
+        window.addEventListener('resize', updateOutcomesNavs);
+        updateOutcomesNavs();
+      })();
+
+    });
+  </script>
+
+  <!-- NoPaperForms -->
+  <script type="text/javascript">var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.in8.nopaperforms.com/emwgts.js"; document.body.appendChild(s);</script>
+
+  <script src="https://in8cdn.npfs.co/js/widget/npfwpopup.js"></script><script>let npfWb5d5c72ac57446a628c59b0daa12b068 = new NpfWidgetsInit(        {'widgetId':'b5d5c72ac57446a628c59b0daa12b068',    'baseurl':'widgets.in8.nopaperforms.com',    'formTitle':'Enquiry Form',    'titleColor':'#FF0033',    'backgroundColor':'#ddd',    'iframeHeight':'500px',     'buttonbgColor':'#4c79dc',     'buttonTextColor':'#FFF',    });</script>
+
+</body>
+
+</html>
