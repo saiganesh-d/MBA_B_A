@@ -57,6 +57,11 @@
       background-attachment: fixed;
     }
 
+    /* iOS Safari does not support background-attachment: fixed — override to scroll */
+    @supports (-webkit-touch-callout: none) {
+      body { background-attachment: scroll; }
+    }
+
     .section-global {
       width: 100%;
       max-width: 100% !important;
@@ -447,6 +452,7 @@
       position: relative;
       z-index: 3;
       display: flex;
+      flex-wrap: wrap;
       background: linear-gradient(90deg, #0d1b73 0%, #6a0dad 50%, #00c2cb 100%);
       margin-top: 0;
       margin-bottom: 45px;
@@ -966,12 +972,6 @@
       line-height: 1.4;
       font-family: 'DM Sans', sans-serif;
     }
-    @media (max-width: 991px) {
-      .faculty-row { grid-template-columns: repeat(3, 1fr); row-gap: 32px; }
-    }
-    @media (max-width: 600px) {
-      .faculty-row { grid-template-columns: repeat(2, 1fr); }
-    }
 
     /* ================================================
        RECOGNITIONS
@@ -1006,6 +1006,7 @@
       /* Was: padding: 0 40px — removed so the badge row can reach the viewport
          edges (and bleed past, see margin trick below). */
       padding: 0;
+      overflow: hidden;
     }
 
     .recognitions-badges {
@@ -2387,13 +2388,13 @@
       }
 
       .hero-text-col {
-        flex: 0 0 52%;
-        max-width: 52%;
+        flex: 0 0 calc(52% - 14px);
+        max-width: calc(52% - 14px);
       }
 
       .hero-form-col {
-        flex: 0 0 46%;
-        max-width: 46%;
+        flex: 0 0 calc(46% - 14px);
+        max-width: calc(46% - 14px);
       }
 
       /* No room for the centered student image at tablet widths —
@@ -2578,6 +2579,10 @@
 
       .about-prog-images .img-collage-wrap {
         display: none;
+      }
+
+      .about-programme-section .about-prog-body {
+        text-align: left;
       }
 
       .about-prog-cta-tile {
@@ -3710,6 +3715,17 @@
     }
     @media (max-width: 575.98px) {
       .tools-card { padding: 28px 18px 34px; border-radius: 24px; }
+      .tools-tabs {
+        flex-direction: column;
+        border-radius: 20px;
+        gap: 6px;
+      }
+      .tools-tab {
+        border-radius: 14px !important;
+        text-align: center;
+        padding: 12px 16px;
+        white-space: normal;
+      }
       .tools-cards { margin: 0 40px; }
       .tool-card { flex: 0 0 calc(100% - 0px); min-width: 0; }
     }
@@ -4189,6 +4205,7 @@
         <!-- Tab 1: Fees Structure -->
         <div class="tab-pane fade show active" id="tab-fees" role="tabpanel">
           <div class="elig-tab-inner">
+            <div class="table-responsive">
             <table class="fee-table">
               <thead>
                 <tr>
@@ -4215,6 +4232,7 @@
                 </tr>
               </tbody>
             </table>
+            </div>
             <p class="elig-para" style="margin-top:22px;font-size:15px;">EMI options (India only) are available through Jodo with a quick, fully digital approval process. International students are billed in local currency at the time of payment.</p>
           </div>
         </div>
@@ -4222,6 +4240,7 @@
         <!-- Tab 2: Eligibility -->
         <div class="tab-pane fade" id="tab-elig" role="tabpanel">
           <div class="elig-tab-inner">
+            <div class="table-responsive">
             <table class="fee-table">
               <thead>
                 <tr>
@@ -4248,6 +4267,7 @@
                 </tr>
               </tbody>
             </table>
+            </div>
           </div>
         </div>
 
