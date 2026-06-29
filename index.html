@@ -112,6 +112,31 @@
       gap: 32px;
     }
 
+    /* Medium laptops (769px – 1366px): tighten header so more hero fits above fold */
+    @media (max-width: 1366px) and (min-width: 769px) {
+      .header-section {
+        padding: 16px 0 8px;
+      }
+
+      .header-section .container {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      .header-logo-img {
+        height: 70px;
+      }
+
+      .header-logo-divider {
+        height: 54px;
+        margin: 0 18px;
+      }
+
+      .logo-flex-container {
+        gap: 24px;
+      }
+    }
+
     @media (max-width: 768px) {
       .logo-flex-container {
         justify-content: center;
@@ -154,6 +179,18 @@
       background: transparent;
       padding-top: 110px;
       /* Space for the floating absolute header */
+    }
+
+    /* Medium laptops: tighten hero to bring info bar into view above fold */
+    @media (max-width: 1366px) and (min-width: 769px) {
+      .hero-section {
+        padding-top: 90px;
+      }
+
+      .hero-inner {
+        min-height: 390px;
+        padding: 28px 40px 12px;
+      }
     }
 
     @media (max-width: 768px) {
