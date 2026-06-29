@@ -591,7 +591,7 @@
     /* Programme Overview: smaller body so the text column height matches the
        image collage on the right. */
     .about-programme-section .about-prog-body {
-      font-size: clamp(13px, 1.05vw, 15.5px);
+      font-size: clamp(15px, 1.25vw, 18px);
       line-height: 1.62;
       margin-bottom: 18px;
       text-align: justify;
@@ -628,23 +628,22 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;
-      /* Modern elegant spacing gap */
-    }
-
-    .about-prog-images {
       align-items: stretch;
+      height: 100%;
     }
 
     .about-images-left-col {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      /* Natural height (campus + gap + Learn More tile) drives the grid row */
+      height: 100%;
+      justify-content: space-between;
     }
 
     .about-prog-images .img-campus {
       width: 100%;
-      height: 400px;
+      flex: 1;
+      min-height: 200px;
       object-fit: cover;
       border-radius: 20px;
       box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
@@ -655,11 +654,12 @@
       transform: translateY(-4px);
     }
 
-    /* Right image: wrapper stretches to the full left-column height; the
-       absolutely-positioned img fills it without inflating the row. */
+    /* Right image: wrapper stretches to full grid row height; absolutely-
+       positioned img fills it without inflating the row. */
     .about-prog-images .img-collage-wrap {
       position: relative;
       width: 100%;
+      height: 100%;
       border-radius: 20px;
       overflow: hidden;
       box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
@@ -3422,7 +3422,7 @@
 
     .aacsb-body {
       font-family: 'DM Sans', sans-serif;
-      font-size: clamp(14px, 1.1vw, 16px);
+      font-size: clamp(15px, 1.2vw, 17.5px);
       color: #2a2a2a;
       line-height: 1.75;
       margin-bottom: 14px;
@@ -4110,7 +4110,7 @@
 ══════════════════════════════════════════ -->
   <section class="about-programme-section">
     <div class="container">
-      <div class="row align-items-start g-5">
+      <div class="row align-items-stretch g-5">
         <div class="col-lg-6 order-1 order-lg-1">
           <h2 class="about-prog-title">Programme Overview</h2>
           <p class="about-prog-body">The <strong>MBA in Business Analytics</strong> is a distinguished postgraduate programme designed for ambitious professionals who aspire to lead with precision, insight, and strategic sophistication in an increasingly data-driven world. Seamlessly integrating advanced analytical capability with refined managerial expertise, the programme empowers learners to translate complex data into high-impact business decisions and drive meaningful organisational transformation.</p>
