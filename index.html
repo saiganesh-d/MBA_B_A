@@ -2499,6 +2499,17 @@
         max-width: 100%;
       }
 
+      /* Mobile hero order: text (title/subtext/CTA) -> student image -> form.
+         align-items:center pulls the ENROLL NOW button to the centre. */
+      .hero-text-col {
+        align-items: center;
+        order: 1;
+      }
+
+      .hero-form-col {
+        order: 3;
+      }
+
       .hero-title {
         white-space: normal;
       }
@@ -2508,12 +2519,21 @@
         margin-right: auto;
       }
 
+      /* Show the student cut-out as a real, centred image sitting between
+         the CTA and the enquiry form (previously a faint 0.12 background). */
       .hero-student {
-        left: 50%;
+        position: static;
+        order: 2;
+        left: auto;
         right: auto;
-        transform: translateX(-50%);
-        height: 70%;
-        opacity: 0.12;
+        transform: none;
+        width: auto;
+        height: auto;
+        max-height: 360px;
+        max-width: 80%;
+        opacity: 1;
+        margin: 10px auto 4px;
+        align-self: center;
       }
 
       .header-section .container {
