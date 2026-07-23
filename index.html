@@ -1716,6 +1716,33 @@
         padding: 10px 20px !important;
         border-radius: 12px !important;
       }
+
+      /* Fee / eligibility tables: stop column text from overflowing and
+         overlapping the next column on narrow screens. Give the label
+         column more room, shrink padding/font, and force long words to
+         wrap instead of spilling over. */
+      .fee-table th,
+      .fee-table td {
+        padding: 12px 12px !important;
+        font-size: 14px !important;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        vertical-align: top;
+      }
+
+      .fee-table th {
+        font-size: 15px !important;
+      }
+
+      .fee-table th:first-child,
+      .fee-table td:first-child {
+        width: 40% !important;
+      }
+
+      .fee-table th:last-child,
+      .fee-table td:last-child {
+        width: 60% !important;
+      }
     }
 
     @media (max-width: 575.98px) {
