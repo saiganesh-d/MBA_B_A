@@ -3239,6 +3239,33 @@
     }
 
     /* --- Need To Know More --- */
+    .ntk-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "heading media"
+        "text media";
+      column-gap: 60px;
+      align-items: center;
+    }
+    .ntk-heading { grid-area: heading; align-self: end; }
+    .ntk-media { grid-area: media; }
+    .ntk-text { grid-area: text; align-self: start; }
+
+    /* Mobile: heading first, then image, then content + CTA */
+    @media (max-width: 991.98px) {
+      .ntk-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "heading"
+          "media"
+          "text";
+        row-gap: 24px;
+      }
+      .ntk-heading,
+      .ntk-text { align-self: auto; }
+    }
+
     .ntk-img {
       width: 100%;
       border-radius: 20px;
@@ -4377,14 +4404,14 @@
 ══════════════════════════════════════════ -->
   <section class="ntk-section section-global" style="background: transparent; padding: 70px 0;">
     <div class="container" style="max-width: 1180px;">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <h2 style="font-family: 'Montserrat', sans-serif; font-size: clamp(32px, 4.6vw, 62px); font-weight: 800; line-height: 1.1; margin-bottom: 24px; background: linear-gradient(90deg, #0D1B73 0%, #6A0DAD 28%, #6A0DAD 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;">Need to know more?</h2>
+      <div class="ntk-grid">
+        <h2 class="ntk-heading" style="font-family: 'Montserrat', sans-serif; font-size: clamp(32px, 4.6vw, 62px); font-weight: 800; line-height: 1.1; margin-bottom: 24px; background: linear-gradient(90deg, #0D1B73 0%, #6A0DAD 28%, #6A0DAD 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;">Need to know more?</h2>
+        <div class="ntk-media">
+          <img class="ntk-img" src="Assets/need to know more/img brochure (2).png" alt="MBA in Business Analytics — programme brochure preview">
+        </div>
+        <div class="ntk-text">
           <p class="about-prog-body">Explore the <strong>MBA in Business Analytics</strong> in detail by downloading the full course brochure. Get comprehensive insights on curriculum, faculty, learning outcomes, and career pathways.</p>
           <a href="#enquire" class="btn-brochure">Download Brochure</a>
-        </div>
-        <div class="col-lg-6">
-          <img class="ntk-img" src="Assets/need to know more/img brochure (2).png" alt="MBA in Business Analytics — programme brochure preview">
         </div>
       </div>
     </div>
