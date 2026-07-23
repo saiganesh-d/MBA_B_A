@@ -1704,6 +1704,13 @@
         background: linear-gradient(180deg, #00C2CB 0%, #6A0DAD 50%, #0D1B73 100%) !important;
       }
 
+      /* Reset the desktop `flex: 1 1 0` (basis 0) which collapses each
+         item's height to 0 in a column, causing the tabs to overlap. */
+      .elig-tabs .nav-item {
+        flex: 0 0 auto !important;
+        width: 100% !important;
+      }
+
       .elig-tabs .nav-link {
         width: 100% !important;
         padding: 10px 20px !important;
