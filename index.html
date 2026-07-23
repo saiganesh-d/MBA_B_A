@@ -2526,6 +2526,15 @@
         margin-right: auto;
       }
 
+      /* Center the ENROLL NOW button and its label on mobile. The base
+         rule pins it left (align-self:flex-start) and the NoPaperForms
+         widget can stretch it with left-aligned text. */
+      .hero-text-col .btn-cta {
+        align-self: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+      }
+
       /* Show the student cut-out as a real, centred image sitting between
          the CTA and the enquiry form (previously a faint 0.12 background). */
       .hero-student {
