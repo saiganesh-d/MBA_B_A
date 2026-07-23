@@ -758,6 +758,33 @@
       margin-top: auto;
     }
 
+    /* Mobile: reorder Programme Overview to
+       title -> image -> content -> CTA.
+       display:contents flattens the Bootstrap columns and the image
+       wrappers so each piece becomes an orderable flex item. */
+    @media (max-width: 991.98px) {
+      .about-programme-section .row {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 22px;
+      }
+      .about-programme-section .row > [class*="col-"],
+      .about-programme-section .about-prog-images,
+      .about-programme-section .about-images-left-col {
+        display: contents;
+      }
+      .about-programme-section .about-prog-title { order: 1; margin-bottom: 0; }
+      .about-programme-section .img-campus,
+      .about-programme-section .img-collage-wrap { order: 2; }
+      .about-programme-section .about-prog-body { order: 3; margin-bottom: 0; }
+      .about-programme-section .about-prog-cta-tile { order: 4; }
+      .about-programme-section .img-campus {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+    }
+
     /* ================================================
        PROGRAMME HIGHLIGHTS
     ================================================ */
