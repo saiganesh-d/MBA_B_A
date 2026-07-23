@@ -3360,6 +3360,15 @@
       }
       .ntk-heading,
       .ntk-text { align-self: auto; }
+
+      /* Center the Download Brochure button on mobile (it's inline-flex,
+         so it sits left by default). */
+      .ntk-text .btn-brochure {
+        display: flex;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
     .ntk-img {
